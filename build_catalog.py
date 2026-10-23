@@ -26,6 +26,8 @@ def norm(s):
 def validate_entries(entries, kind):
     """Give actionable errors instead of unpacking/type errors."""
     for index, entry in enumerate(entries, 1):
+        if isinstance(entry, str) and entry.strip():
+            continue
         if not isinstance(entry, (list, tuple)) or len(entry) != 2:
             raise SystemExit(
                 f"{kind} entry #{index} must be [title, year]; got {entry!r}"
@@ -142,16 +144,19 @@ def build(config):
         raise SystemExit("Catalog entries cannot be empty")
     validate_entries(entries, kind)
     metas = []
-    for title,year in entries:
+    for entry in entries:
+        title, year = (entry, None) if isinstance(entry, str) else entry
         tmdb_kind = "tv" if kind == "series" else "movie"
         date_key = "first_air_date" if kind == "series" else "release_date"
         title_key = "name" if kind == "series" else "title"
         # Search without a year restriction as a fallback: TMDB sometimes lists
         # a different release year or an alternate/original title.
-        results = tmdb("search/" + tmdb_kind, {
-            "query": title,
-            "first_air_date_year" if kind == "series" else "year": year,
-        }).get("results", [])
+        results = []
+        if year is not None:
+            results = tmdb("search/" + tmdb_kind, {
+                "query": title,
+                "first_air_date_year" if kind == "series" else "year": year,
+            }).get("results", [])
         results += tmdb("search/" + tmdb_kind, {"query": title}).get("results", [])
         original_key = "original_name" if kind == "series" else "original_title"
         def match_score(item):
@@ -160,9 +165,9 @@ def build(config):
                              for name in names)
             exact = any(norm(name) == norm(title) for name in names)
             date = str(item.get(date_key) or "")[:4]
-            year_delta = abs(int(date) - int(year)) if date.isdigit() else 999
+            year_delta = abs(int(date) - int(year)) if year is not None and date.isdigit() else (0 if year is None else 999)
             # Never silently replace a requested title with an unrelated result.
-            if not exact and (similarity < 0.90 or year_delta > 1):
+            if not exact and (similarity < (1.0 if year is None else 0.90) or year_delta > 1):
                 return None
             if year_delta > 1:
                 return None
@@ -189,6 +194,13 @@ def build(config):
             reverse=True,
         )
         m = candidates[0][1]
+        if year is None:
+            exact_ids = {item["id"] for score, item in candidates if score[0]}
+            if len(exact_ids) != 1:
+                raise SystemExit(f"Multiple TMDB releases match {title!r}; specify [title, year].")
+            year = str(m.get(date_key) or "")[:4]
+            if not year.isdigit() or len(year) != 4:
+                raise SystemExit(f"Missing TMDB release year for {title!r}; specify [title, year].")
         if not m.get("poster_path"):
             raise SystemExit(f"Missing poster: {title} ({year})")
         external = tmdb(f"{tmdb_kind}/{m['id']}/external_ids")
