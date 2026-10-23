@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.alien.vs.predator.combined.v2",
+  "version": "1.0.0",
+  "name": "Alien vs Predator",
+  "description": "Alien movies, Alien shows, Predator movies, then crossover films",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "alien-vs-predator-combined-v2",
+      "name": "Alien vs Predator"
+    }
+  ]
+}
