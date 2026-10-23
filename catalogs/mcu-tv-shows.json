@@ -1,0 +1,56 @@
+{
+  "catalog_id": "mcu-tv-shows",
+  "name": "MCU TV Shows — Release Order",
+  "description": "Modern MCU Disney+ television series in premiere order.",
+  "type": "series",
+  "shows": [
+    [
+      "WandaVision",
+      2021
+    ],
+    [
+      "The Falcon and the Winter Soldier",
+      2021
+    ],
+    [
+      "Loki",
+      2021
+    ],
+    [
+      "Hawkeye",
+      2021
+    ],
+    [
+      "Moon Knight",
+      2022
+    ],
+    [
+      "Ms. Marvel",
+      2022
+    ],
+    [
+      "She-Hulk: Attorney at Law",
+      2022
+    ],
+    [
+      "Secret Invasion",
+      2023
+    ],
+    [
+      "Agatha All Along",
+      2024
+    ],
+    [
+      "Daredevil: Born Again",
+      2025
+    ],
+    [
+      "Ironheart",
+      2025
+    ],
+    [
+      "VisionQuest",
+      2026
+    ]
+  ]
+}
