@@ -208,9 +208,16 @@ def build(config):
         )
         m = candidates[0][1]
         if year is None:
-            exact_ids = {item["id"] for score, item in candidates if score[0]}
-            if len(exact_ids) != 1:
-                raise SystemExit(f"Multiple TMDB releases match {title!r}; specify [title, year].")
+            # Exact-title duplicates are common on TMDB. Prefer the established
+            # result, but require a year if competing releases are close in popularity.
+            exact_matches = [item for score, item in candidates if score[0]]
+            if len(exact_matches) > 1:
+                leader = float(exact_matches[0].get("popularity") or 0)
+                runner_up = float(exact_matches[1].get("popularity") or 0)
+                if leader <= 0 or runner_up >= leader * 0.5:
+                    raise SystemExit(
+                        f"Multiple plausible TMDB releases match {title!r}; specify [title, year]."
+                    )
             year = str(m.get(date_key) or "")[:4]
             if not year.isdigit() or len(year) != 4:
                 raise SystemExit(f"Missing TMDB release year for {title!r}; specify [title, year].")
