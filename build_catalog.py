@@ -116,11 +116,11 @@ if (root / "catalogs" / "alien-vs-predator.json").exists():
     mixed_manifest = {
         "id": "com.kc6442.alien.vs.predator.mixed.test",
         "version": "0.1.1",
-        "name": "Alien vs Predator MIXED TEST",
+        "name": "Alien vs Predator",
         "description": "Experimental single movie catalog row with mixed movie and series items",
         "resources": ["catalog"],
         "types": ["movie"],
-        "catalogs": [{"type": "movie", "id": slug, "name": "Alien vs Predator MIXED TEST"}],
+        "catalogs": [{"type": "movie", "id": slug, "name": "Alien vs Predator"}],
     }
     (mixed_base / "manifest.json").write_text(json.dumps(mixed_manifest, ensure_ascii=False, indent=2) + "\n")
     print("Built mixed test catalog with 18 entries")
