@@ -1,0 +1,15 @@
+{
+  "catalog_id": "sample-release",
+  "name": "Sample Movie Collection",
+  "description": "Sample Nuvio movie catalog.",
+  "movies": [
+    [
+      "The Matrix",
+      1999
+    ],
+    [
+      "The Matrix Reloaded",
+      2003
+    ]
+  ]
+}
