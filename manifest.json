@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.sample.release",
+  "version": "0.1.0",
+  "name": "Sample Movie Collection",
+  "description": "Sample Nuvio movie catalog for automated build verification.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "sample-release",
+      "name": "Sample Movie Collection"
+    }
+  ]
+}
