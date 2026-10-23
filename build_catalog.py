@@ -112,7 +112,7 @@ if (root / "catalogs" / "alien-vs-predator.json").exists():
     mixed_base = root / "published" / slug
     mixed_target = mixed_base / "catalog" / "movie" / (slug + ".json")
     mixed_target.parent.mkdir(parents=True, exist_ok=True)
-    mixed_target.write_text(json.dumps({"metas": [all_metas[name] for name in names]}, ensure_ascii=False, indent=2) + "\\n")
+    mixed_target.write_text(json.dumps({"metas": [all_metas[name] for name in names]}, ensure_ascii=False, indent=2) + "\n")
     mixed_manifest = {
         "id": "com.kc6442.alien.vs.predator.mixed.test",
         "version": "0.1.1",
@@ -122,5 +122,5 @@ if (root / "catalogs" / "alien-vs-predator.json").exists():
         "types": ["movie"],
         "catalogs": [{"type": "movie", "id": slug, "name": "Alien vs Predator MIXED TEST"}],
     }
-    (mixed_base / "manifest.json").write_text(json.dumps(mixed_manifest, ensure_ascii=False, indent=2) + "\\n")
+    (mixed_base / "manifest.json").write_text(json.dumps(mixed_manifest, ensure_ascii=False, indent=2) + "\n")
     print("Built mixed test catalog with 18 entries")
