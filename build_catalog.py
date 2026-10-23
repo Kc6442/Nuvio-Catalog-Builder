@@ -87,7 +87,7 @@ def validate_metas(metas, catalog_label):
         seen_ids.add(meta["id"])
 
 def build_actor_catalog(config, slug):
-    """Build movie filmography from TMDB cast credits for any actor or actress."""
+    """Build all available movie and TV credits, including cast and crew."""
     person_id = config.get("person_id")
     actor = config.get("actor")
     if person_id is None:
@@ -96,51 +96,69 @@ def build_actor_catalog(config, slug):
         people = tmdb("search/person", {"query": actor}).get("results", [])
         matches = [p for p in people if norm(p.get("name", "")) == norm(actor)]
         if len(matches) != 1:
-            raise SystemExit(
-                f"{slug}: actor name is missing or ambiguous: {actor!r}. "
-                "Specify person_id from TMDB to select the right person."
-            )
+            raise SystemExit(f"{slug}: ambiguous actor {actor!r}; specify person_id")
         person_id = matches[0]["id"]
     if not str(person_id).isdigit():
         raise SystemExit(f"{slug}: person_id must be a numeric TMDB person ID")
     person = tmdb(f"person/{person_id}")
-    credits = tmdb(f"person/{person_id}/movie_credits").get("cast", [])
-    # Exclude unreleased entries and missing posters; avoid broken Nuvio metadata.
-    unique = {}
-    for movie in credits:
-        date = movie.get("release_date") or ""
-        if not (len(date) >= 4 and date[:4].isdigit() and movie.get("poster_path")):
-            continue
-        if movie.get("adult"):
-            continue
-        unique[movie["id"]] = movie
-    ordered = sorted(unique.values(), key=lambda m: (m["release_date"], m.get("title", ""), m["id"]))
-    metas = []
-    for movie in ordered:
-        external = tmdb(f"movie/{movie['id']}/external_ids")
-        identifier = external.get("imdb_id") or "tmdb:" + str(movie["id"])
-        metas.append({
-            "id": identifier, "type": "movie",
-            "name": movie.get("title") or movie.get("original_title") or str(movie["id"]),
-            "poster": "https://image.tmdb.org/t/p/w500" + movie["poster_path"],
-            "description": movie.get("overview") or "",
-            "releaseInfo": movie["release_date"][:4],
-        })
-    validate_metas(metas, slug + "/actor")
     base = root / "published" / slug
-    target = base / "catalog" / "movie" / (slug + ".json")
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps({"metas": metas}, ensure_ascii=False, indent=2) + "\n")
+    catalogs = []
+    for kind, endpoint, date_key, title_key in (
+        ("movie", "movie", "release_date", "title"),
+        ("series", "tv", "first_air_date", "name"),
+    ):
+        credits = tmdb(f"person/{person_id}/{endpoint}_credits")
+        unique = {}
+        for role in ("cast", "crew"):
+            for item in credits.get(role, []):
+                if not item.get("id") or item.get("adult"):
+                    continue
+                key = item["id"]
+                if key not in unique:
+                    unique[key] = item
+                elif not unique[key].get("poster_path") and item.get("poster_path"):
+                    unique[key] = item
+        ordered = sorted(unique.values(), key=lambda item: (
+            item.get(date_key) or "9999-99-99",
+            item.get(title_key) or "", item["id"]))
+        metas = []
+        for item in ordered:
+            external = tmdb(f"{endpoint}/{item['id']}/external_ids")
+            identifier = external.get("imdb_id") or "tmdb:" + str(item["id"])
+            # Keep credits without a title poster using the person's TMDB profile photo.
+            poster_path = item.get("poster_path") or person.get("profile_path")
+            if not poster_path:
+                # Metadata requires a real TMDB image; log otherwise unrepresentable credits.
+                print(f"WARNING {slug}: no image for {kind} TMDB {item['id']}")
+                continue
+            date = item.get(date_key) or ""
+            metas.append({
+                "id": identifier, "type": kind,
+                "name": item.get(title_key) or item.get("original_" + title_key) or str(item["id"]),
+                "poster": "https://image.tmdb.org/t/p/w500" + poster_path,
+                "description": item.get("overview") or "",
+                "releaseInfo": date[:4] if len(date) >= 4 else "Unknown",
+            })
+        if not metas:
+            print(f"WARNING {slug}: no {kind} credits")
+            continue
+        validate_metas(metas, slug + "/" + kind)
+        target = base / "catalog" / kind / (slug + ".json")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(json.dumps({"metas": metas}, ensure_ascii=False, indent=2) + "\\n")
+        catalogs.append({"type": kind, "id": slug,
+                         "name": (config.get("name") or person["name"]) + (" Movies" if kind == "movie" else " TV Shows")})
+        print(f"Built {len(metas)} {kind} credits for {person['name']}")
+    if not catalogs:
+        raise SystemExit(f"{slug}: no usable credits")
     manifest = {
         "id": "com.kc6442." + slug.replace("-", "."),
-        "version": "0.1.0", "name": config.get("name") or person["name"],
-        "description": config.get("description") or ("Filmography of " + person["name"]),
-        "resources": ["catalog"], "types": ["movie"],
-        "catalogs": [{"type": "movie", "id": slug,
-                      "name": config.get("name") or person["name"]}],
+        "version": "0.2.0", "name": config.get("name") or person["name"],
+        "description": config.get("description") or ("Complete TMDB credits for " + person["name"]),
+        "resources": ["catalog"], "types": [c["type"] for c in catalogs],
+        "catalogs": catalogs,
     }
-    (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
-    print(f"Built {len(metas)} films for {person['name']}: {target}")
+    (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n")
 
 def build(config):
     slug = config["catalog_id"]
