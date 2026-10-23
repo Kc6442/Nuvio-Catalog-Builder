@@ -43,7 +43,7 @@ def build(config):
     if len({m["id"] for m in metas}) != len(metas):
         raise SystemExit("Duplicate movies found")
     base = root / "published" / slug
-        target = base / "catalog" / "movie" / (slug+".json")
+    target = base / "catalog" / "movie" / (slug+".json")
     target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(json.dumps({"metas":metas},ensure_ascii=False,indent=2)+"\n")
     manifest = {"id":"com.kc6442."+slug.replace("-","."),"version":"0.1.0","name":config["name"],"description":config["description"],"resources":["catalog"],"types":["movie"],"catalogs":[{"type":"movie","id":slug,"name":config["name"]}]}
