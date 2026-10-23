@@ -1,7 +1,7 @@
 {
   "catalog_id": "sample-release",
   "name": "Sample Movie Collection",
-  "description": "Sample Nuvio movie catalog.",
+  "description": "Sample Nuvio movie catalog for automated build verification.",
   "movies": [
     [
       "The Matrix",
