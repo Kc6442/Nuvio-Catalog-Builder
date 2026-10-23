@@ -146,7 +146,10 @@ def build(config):
             if year_delta > 1:
                 return None
             return (int(exact), int(year_delta == 0), similarity)
-        candidates = [(match_score(item), item) for item in results if item.get("id")]
+        # The year-filtered and unfiltered searches often return the same TMDB ID.
+        # Deduplicate before ambiguity checks so one movie is not counted twice.
+        unique_results = {item["id"]: item for item in results if item.get("id")}
+        candidates = [(match_score(item), item) for item in unique_results.values()]
         candidates = [(score, item) for score, item in candidates if score is not None]
         if not candidates:
             raise SystemExit(
