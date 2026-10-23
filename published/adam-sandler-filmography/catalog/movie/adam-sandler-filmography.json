@@ -1,0 +1,972 @@
+{
+  "metas": [
+    {
+      "id": "tt0096870",
+      "type": "movie",
+      "name": "Going Overboard",
+      "poster": "https://image.tmdb.org/t/p/w500/tRyhUrLDhVYie2GBX3rXF64Jom1.jpg",
+      "description": "A struggling young comedian takes a menial job on a cruise ship where he hopes for his big chance to make it in the world of cruise ship comedy.",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tt7633938",
+      "type": "movie",
+      "name": "The Dog Police",
+      "poster": "https://image.tmdb.org/t/p/w500/6n3ikd1c8h49abm2GHUff8Y1M46.jpg",
+      "description": "A trio of dogs in trench coats from outer space are actually police men. When a emergency call comes in the dogs must spring into action and solve a crime.",
+      "releaseInfo": "1990"
+    },
+    {
+      "id": "tt0313703",
+      "type": "movie",
+      "name": "Testing Dirty",
+      "poster": "https://image.tmdb.org/t/p/w500/6KR3VKdz4ZaK8uK6G2wwiZYb0pg.jpg",
+      "description": "Having never used drugs in his life, a teenage boy is shocked to test positive for drugs.",
+      "releaseInfo": "1990"
+    },
+    {
+      "id": "tt0102898",
+      "type": "movie",
+      "name": "Shakes the Clown",
+      "poster": "https://image.tmdb.org/t/p/w500/nfTWQ7GfH462FVmYEGQB1oHR6H4.jpg",
+      "description": "Shakes plods about his duties as party clown, and uses all of his free time getting seriously drunk. Binky, another clown, wins the spot on a local kiddie show, which depresses Shakes even more, and his boss threatens him with unemployment if he can't get his act under control.",
+      "releaseInfo": "1991"
+    },
+    {
+      "id": "tt0106598",
+      "type": "movie",
+      "name": "Coneheads",
+      "poster": "https://image.tmdb.org/t/p/w500/vlpQnf0rl0FpMjWLS0TNd8Bog2F.jpg",
+      "description": "A pair of aliens arrive on Earth to prepare for invasion, but crash instead. With enormous cone-shaped heads, robotlike walks and an appetite for toilet paper, aliens Beldar and Prymatt don't exactly blend in with the population of Paramus, N.J. But for some reason, everyone believes them when they say they're from France.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tt6516474",
+      "type": "movie",
+      "name": "Buddy",
+      "poster": "https://image.tmdb.org/t/p/w500/bTtGUbgXYnALUFuJ9PucBYUKgDT.jpg",
+      "description": "Two buddies, two dudes and two homies hang out on a train.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tt0109068",
+      "type": "movie",
+      "name": "Airheads",
+      "poster": "https://image.tmdb.org/t/p/w500/4xPG8pPMyeoec48gKWbbC85EC8j.jpg",
+      "description": "The Lone Rangers have heavy-metal dreams and a single demo tape they can't get anyone to play. The solution: Hijack an FM rock radio station and hold the deejays hostage until they agree to broadcast the band's tape.",
+      "releaseInfo": "1994"
+    },
+    {
+      "id": "tt0110538",
+      "type": "movie",
+      "name": "Mixed Nuts",
+      "poster": "https://image.tmdb.org/t/p/w500/xPdQMqxWnFwCKOIto8dBEorTtGR.jpg",
+      "description": "The events of a crisis hotline business on one crazy night during the Christmas holidays.",
+      "releaseInfo": "1994"
+    },
+    {
+      "id": "tt0112508",
+      "type": "movie",
+      "name": "Billy Madison",
+      "poster": "https://image.tmdb.org/t/p/w500/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
+      "description": "Billy Madison is the 27 year-old son of Bryan Madison, a very rich man who has made his living in the hotel industry. Billy stands to inherit his father's empire, but only if he can make it through all 12 grades, 2 weeks per grade, to prove that he has what it takes to run the family business.",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tt0116483",
+      "type": "movie",
+      "name": "Happy Gilmore",
+      "poster": "https://image.tmdb.org/t/p/w500/4RnCeRzvI1xk5tuNWjpDKzSnJDk.jpg",
+      "description": "Failed hockey player-turned-golf whiz Happy Gilmore — whose unconventional approach and antics on the green courts the ire of rival Shooter McGavin — is determined to win a PGA tournament so he can save his granny's house with the prize money. Meanwhile, an attractive tour publicist tries to soften Happy's image.",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tt0115783",
+      "type": "movie",
+      "name": "Bulletproof",
+      "poster": "https://image.tmdb.org/t/p/w500/iI7G9YXxodrqkQPKis1y3EKP8wJ.jpg",
+      "description": "An undercover police officer named Rock Keats befriends a drug dealer and car thief named Archie Moses in a bid to catch the villainous drug lord Frank Coltan. But the only problem is that Keats is a cop, his real name is Jack Carter, and he is working undercover with the LAPD to bust Moses and Colton at a sting operation the LAPD has set up.",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tt0233157",
+      "type": "movie",
+      "name": "Adam Sandler: What the Hell Happened to Me?",
+      "poster": "https://image.tmdb.org/t/p/w500/u9IOCJOaXo6M8kVmvnRxnN3HJb7.jpg",
+      "description": "Live performance from June 29, 1996 in Chicago of Adam Sandler with a live backing band supporting his newly released comedy album, \"What the Hell Happened to Me?\". Originally aired as an hour long special on HBO.",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tmdb:310669",
+      "type": "movie",
+      "name": "Saturday Night Live: A Tribute to Chris Farley",
+      "poster": "https://image.tmdb.org/t/p/w500/78EYMrbJhql1q7LGsXIUEK0pVfE.jpg",
+      "description": "Chris Farley was one of the most popular comedians of the 1990s, thanks to his hilarious skits on \"Saturday Night Live,\" which featured Matt Foley, everyone's favorite motivational speaker, the Chippendales dancer (alongside Patrick Swayze) and more. This program pays proper homage to Farley, who was an \"SNL\" cast member starting in the spring of 1990, with numerous clips and exclusive backstage footage.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tt0500148",
+      "type": "movie",
+      "name": "Saturday Night Live: The Best of Phil Hartman",
+      "poster": "https://image.tmdb.org/t/p/w500/ueH7ztOd7PxpjFMVLfNcprZZzKt.jpg",
+      "description": "Classic Saturday Night Live skits featuring the hilarious Phil Hartman.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tt0120888",
+      "type": "movie",
+      "name": "The Wedding Singer",
+      "poster": "https://image.tmdb.org/t/p/w500/zVvyTrcZQb7kC2DPDzyo25WcxXp.jpg",
+      "description": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tt0120654",
+      "type": "movie",
+      "name": "Dirty Work",
+      "poster": "https://image.tmdb.org/t/p/w500/r6OcS6TQCHal2wHooJhHWSlFzfd.jpg",
+      "description": "Unemployed and recently dumped, Mitch and his buddy Sam start a revenge-for-hire business to raise the $50,000 that Sam's father needs to get a heart transplant.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tt0500191",
+      "type": "movie",
+      "name": "Bad Boys of Saturday Night Live",
+      "poster": "https://image.tmdb.org/t/p/w500/qDE84neUrPmjH0oO8KfrQIY2zbB.jpg",
+      "description": "Adam Sandler, David Spade, Chris Rock, Rob Schneider and Chris Farley put together this hilarious Saturday Night Live sketch celebration! With each one of their memorable characters: Sandler's Opera Man, Spade's sarcastic news commenator, Rock's Nat X, Schneider's Richard the Copy Guy, and Farley's host of the Chris Farley Show.  - Written by Dylan Self",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tt0120484",
+      "type": "movie",
+      "name": "The Waterboy",
+      "poster": "https://image.tmdb.org/t/p/w500/miT42qWYC4D0n2mXNzJ9VfhheWW.jpg",
+      "description": "Bobby Boucher is a water boy for a struggling college football team. The coach discovers Boucher's hidden rage makes him a tackling machine whose bone-crushing power might vault his team into the playoffs.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tt0142342",
+      "type": "movie",
+      "name": "Big Daddy",
+      "poster": "https://image.tmdb.org/t/p/w500/lEYg1X8RjqNB5NWEtodcbK7vm1G.jpg",
+      "description": "A lazy law school grad adopts a kid to impress his girlfriend, but everything doesn't go as planned. Now he's forced to grow up while navigating the challenges of fatherhood.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:1416702",
+      "type": "movie",
+      "name": "The Peeper",
+      "poster": "https://image.tmdb.org/t/p/w500/wyyBpIzqqbzfoVN1Fw6twJfnVZQ.jpg",
+      "description": "",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tt0500149",
+      "type": "movie",
+      "name": "Saturday Night Live: 25th Anniversary Special",
+      "poster": "https://image.tmdb.org/t/p/w500/iloU9d27LBYLH5AaWtkSsSoqFtC.jpg",
+      "description": "A TV special celebrating the 25th anniversary of Saturday Night Live. Before a celebrity audience, many of the former cast members and guest hosts return to perform their signature monologues and present a look back at some of the best comedy skits and musical numbers of the past two and a half decades.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tt0255573",
+      "type": "movie",
+      "name": "SNL: The Best of Adam Sandler",
+      "poster": "https://image.tmdb.org/t/p/w500/uSm0wO7vHQLoUXxCTlUDFGWUpIx.jpg",
+      "description": "Before he was Happy Gilmore, Little Nicky, The Waterboy, or Billy Madison, Adam Sandler was doing Saturday Night Live playing hilarious characters and singing hilarious songs like the Hanukkah song and Christmas song. Watch Adam act in his own star studded way as Canteen Boy, Cajun Man, Opera Man, and much more!",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tt0272826",
+      "type": "movie",
+      "name": "Saturday Night Live: Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/eDrXtbp65CBWoC5owqh1Z7VLwnn.jpg",
+      "description": "Join the epic \"Not Ready for Prime Time Players\" cast of Saturday Night Live regulars in a hilarious compilation of the best holiday moments from the show's Christmas specials. Some of the highlights include \"Martha Stewart's Topless Christmas Special,\" \"The Lost Ending to It's a Wonderful Life,\" \"The Night Hannukah Harry Saved Christmas,\" \"Mr. Robinson's Neighborhood on Christmas\" and, of course, the Church Lady's drum solo.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tt0205000",
+      "type": "movie",
+      "name": "Deuce Bigalow: Male Gigolo",
+      "poster": "https://image.tmdb.org/t/p/w500/w0UKAcY4fAPuQW2GhAoIMwutIA5.jpg",
+      "description": "Deuce Bigalow is a less than attractive, down on his luck aquarium cleaner. One day he wrecks the house of a gigolo and needs quick money to repair it. The only way he can make it is to become a gigolo himself, taking on an unusual mix of female clients. He encounters a couple of problems, though. He falls in love with one of his unusual clients, and a sleazy police officer is hot on his trail.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tt0185431",
+      "type": "movie",
+      "name": "Little Nicky",
+      "poster": "https://image.tmdb.org/t/p/w500/AudA8gnTWSBWXBHSBHnr3HHUXXM.jpg",
+      "description": "After the lord of darkness decides he will not cede his throne to any of his three sons, the two most powerful of them escape to Earth to create a kingdom for themselves. This action closes the portal filtering sinful souls to Hell and causes Satan to wither away. He must send his most weak but beloved son, Little Nicky, to Earth to return his brothers to Hell.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tt0305751",
+      "type": "movie",
+      "name": "Laughing Out Loud: America's Funniest Comedians",
+      "poster": "https://image.tmdb.org/t/p/w500/rQG3yAe4qzewDFZsXz6HjYCw65h.jpg",
+      "description": "This set gives you a chance to see some of today's best comedians when they were much younger. some peoples bits are very short, one joke short, which leaves you feeling a little jipped. The replay value is minimal because you have to skip around so much to keep the laughs going.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:1229213",
+      "type": "movie",
+      "name": "Satan’s Top Forty",
+      "poster": "https://image.tmdb.org/t/p/w500/lbc0wV1nU6YzarbmMlrJY3oWo01.jpg",
+      "description": "Documentary on Heavy Metal music featuring Adam Sandler, Ozzy Osbourne, Gene Simmons and Ronnie Dio. Produced for the \"Little Nicky\" Special Edition DVD.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0255798",
+      "type": "movie",
+      "name": "The Animal",
+      "poster": "https://image.tmdb.org/t/p/w500/oNxEXmKTZtECHs0bQbI6dQoXYMV.jpg",
+      "description": "When loser Marvin Mange is involved in a horrible car accident, he's brought back to life by a deranged scientist as half man and half animal. His newfound powers are awesome -- but their adverse side effects could take over his life. Now, Marvin must fight to control his crazy primal urges around his new squeeze, Rianna, and his rival, Sgt. Sisk, who both think he's one cool cat.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt11188122",
+      "type": "movie",
+      "name": "VH1 News Special: Grunge",
+      "poster": "https://image.tmdb.org/t/p/w500/yDYqB3o0x8kzUlwJ6YRaNAdUri4.jpg",
+      "description": "VH1 and SPIN magazine teamed up to present 'VH1 News Special: Grunge', an in-depth look at the Seattle-born movement that transformed popular music and the major players who made it happen.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0296503",
+      "type": "movie",
+      "name": "America: A Tribute to Heroes",
+      "poster": "https://image.tmdb.org/t/p/w500/eesmzTB7mrJhuTOeJ6gSYT6b4aC.jpg",
+      "description": "A benefit concert and telethon organized by George Clooney and broadcast uninterrupted and commercial-free by the four major television networks just 10 days after the September 11, 2001 attacks on the World Trade Center and The Pentagon to raise money for the victims and their families,",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0298810",
+      "type": "movie",
+      "name": "The Concert for New York City",
+      "poster": "https://image.tmdb.org/t/p/w500/h3OWNj5OQ8X4ptvd4IRH47CJtvS.jpg",
+      "description": "The Concert for New York City (2001) captures the star-studded benefit held at Madison Square Garden on October 20, 2001, honoring the city’s resilience and the heroism of first responders after 9/11. Attended by thousands of firefighters, police officers, and rescue workers, the concert features performances by Paul McCartney, The Who, Elton John, Billy Joel, and other music legends in a powerful tribute to unity, courage, and recovery.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0306682",
+      "type": "movie",
+      "name": "The Cosby Show: A Look Back",
+      "poster": "https://image.tmdb.org/t/p/w500/uuFATrBoMwYMLjTAt6kL58czcpc.jpg",
+      "description": "A retrospective of the phenomenally popular 1984-1992 situation comedy, \"The Cosby Show,\" complete with memorable clips, bloopers and comments from series stars, producers and Bill Cosby himself.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tt0280590",
+      "type": "movie",
+      "name": "Mr. Deeds",
+      "poster": "https://image.tmdb.org/t/p/w500/7gGk3pkpRsNlJ4PrJgEfgY9PG43.jpg",
+      "description": "When Longfellow Deeds, a small-town pizzeria owner and poet, inherits $40 billion from his deceased uncle, he quickly begins rolling in a different kind of dough. Moving to the big city, Deeds finds himself besieged by opportunists all gunning for their piece of the pie. Babe, a television tabloid reporter, poses as an innocent small-town girl to do an exposé on Deeds.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tt0272338",
+      "type": "movie",
+      "name": "Punch-Drunk Love",
+      "poster": "https://image.tmdb.org/t/p/w500/htYp4yqFu4rzBEIa6j9jP8miDm3.jpg",
+      "description": "A socially awkward and volatile small business owner meets the love of his life after being threatened by a gang of scammers.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tt0342267",
+      "type": "movie",
+      "name": "A Day with the Meatball",
+      "poster": "https://image.tmdb.org/t/p/w500/pqYAfftLkpXAyRppOs4H7llczz8.jpg",
+      "description": "A day with Adam Sandler's dog, Meatball.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tt0271263",
+      "type": "movie",
+      "name": "Eight Crazy Nights",
+      "poster": "https://image.tmdb.org/t/p/w500/p8yiNFvs7q7ymxVAkym3WuYygrn.jpg",
+      "description": "Davey Stone, a 33-year old party animal, finds himself in trouble with the law after his wild ways go too far.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tt0302640",
+      "type": "movie",
+      "name": "The Hot Chick",
+      "poster": "https://image.tmdb.org/t/p/w500/lnnGE4TKa05t20SZ2batuAhXCp4.jpg",
+      "description": "Not only is Jessica Spencer the most popular girl in school -- she is also the meanest. But things change for the attractive teen when a freak accident involving a cursed pair of earrings and a chance encounter at a gas station causes her to switch bodies with Clive, a sleazy crook. Jessica, in the form of the repulsive Clive, struggles to adjust to this radical alteration and sets out to get her own body back before the upcoming prom.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tt0284674",
+      "type": "movie",
+      "name": "Pauly Shore Is Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/e5o7LfDgSKurbBQTw6lL1pouKDQ.jpg",
+      "description": "Hollywood comedian/actor Pauly Shore loses everything: his house, nobody in Hollywood wants to represent him, he moves back home with his mom and is now parking cars at the Comedy Store. Then one night when he's up in his mom's loft, a dead famous comedian appears who tells Pauly to kill himself cause he'll go down as a comedic genius who died before his time. Pauly then fakes his own death, and the media goes crazy.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tt0305224",
+      "type": "movie",
+      "name": "Anger Management",
+      "poster": "https://image.tmdb.org/t/p/w500/8wX3S5HjL3bgb2yi4CfR2qIqbdH.jpg",
+      "description": "After a small misunderstanding aboard an airplane escalates out of control, timid businessman Dave Buznik is ordered by the court to undergo anger management therapy at the hands of specialist Dr. Buddy Rydell. But when Buddy steps up his aggressive treatment by moving in, Dave goes from mild to wild as the unorthodox treatment wreaks havoc with his life.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tt0365082",
+      "type": "movie",
+      "name": "Couch",
+      "poster": "https://image.tmdb.org/t/p/w500/lNJ91ZPm51oIc4kH9rtA8rxEyw.jpg",
+      "description": "A man shops for a new couch at a Levitz furniture store.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tt0500100",
+      "type": "movie",
+      "name": "Saturday Night Live: The Best of Chris Farley",
+      "poster": "https://image.tmdb.org/t/p/w500/t2WsuYsiN7uRalBJtd7PvwHbPp9.jpg",
+      "description": "The best of Chris Farley's wildly funny SNL performances, including van-dwelling motivational speaker Matt Foley, an aspiring Chippendales dancer, the bashful host of The Chris Farley Show, and more.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tt0343660",
+      "type": "movie",
+      "name": "50 First Dates",
+      "poster": "https://image.tmdb.org/t/p/w500/lzUI2Cg7OMfcUNv3f7MywYNBjs6.jpg",
+      "description": "Henry is a player skilled at seducing women. But when this veterinarian meets Lucy, a girl with a quirky problem when it comes to total recall, he realizes it's possible to fall in love all over again…and again, and again. That's because the delightful Lucy has no short-term memory, so Henry must woo her day after day until he finally sweeps her off her feet.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tt0371246",
+      "type": "movie",
+      "name": "Spanglish",
+      "poster": "https://image.tmdb.org/t/p/w500/x3OTaBvjqzhRL53Q39fOoIYqxyO.jpg",
+      "description": "Mexican immigrant and single mother Flor Moreno finds housekeeping work with Deborah and John Clasky, a well-off couple with two children of their own. When Flor admits she can't handle the schedule because of her daughter, Cristina, Deborah decides they should move into the Clasky home. Cultures clash and tensions run high as Flor and the Claskys struggle to share space while raising their children on their own, and very different, terms.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tt0439335",
+      "type": "movie",
+      "name": "WWE WrestleMania 21",
+      "poster": "https://image.tmdb.org/t/p/w500/4rQOid4Qc4nsZ5WS3WJ5DaxLW0z.jpg",
+      "description": "WrestleMania 21 was the twenty-first annual WrestleManiaPPV. It was presented by Snickers and took place on April 3, 2005 at the Staples Center in Los Angeles, California.  The main match on the Raw brand was Triple H versus Batista for the World Heavyweight Championship. The predominant match on the SmackDown brand was John \"Bradshaw\" Layfield versus John Cena for the WWE Championship. Another primary match was an interpromotional match between The Undertaker versus Randy Orton. The featured matches on the undercard were Kurt Angle versus Shawn Michaels and a Money in the Bank ladder match. The event also featured the return of Stone Cold Steve Austin who started his part-time appearances with WWE at this event.  The event drew a Staples Center record attendance of 20,193 people and grossed more than $2.1 million in ticket sales.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tt0398165",
+      "type": "movie",
+      "name": "The Longest Yard",
+      "poster": "https://image.tmdb.org/t/p/w500/nbKcVBcxF96ARW2oKHqDYAcLdu.jpg",
+      "description": "Disgraced pro football quarterback Paul Crewe lands in a Texas federal penitentiary, where manipulative Warden Hazen recruits him to advise the institution's football team of prison guards. Crewe suggests a tune-up game which lands him quarterbacking a crew of inmates in a game against the guards. Aided by incarcerated ex-NFL coach and player Nate Scarborough, Crewe and his team must overcome not only the bloodthirstiness of the opposition, but also the corrupt warden trying to fix the game against them.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tt0367652",
+      "type": "movie",
+      "name": "Deuce Bigalow: European Gigolo",
+      "poster": "https://image.tmdb.org/t/p/w500/yXdQ4UGDFCsPrynJOdIk20AYLus.jpg",
+      "description": "Deuce Bigalow goes to Amsterdam after a little accident including two irritating kids and a bunch of aggressive dolphins. There he meets up with his old friend T.J. Hicks. But a mysterious killer starts killing some of Amsterdam's finest gigolos and T.J. is mistaken for the extremely gay murderer. Deuce must enter the gigolo industry again to find the real murderer and clear T.J.'s name.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tt0462518",
+      "type": "movie",
+      "name": "Saturday Night Live: The Best of Alec Baldwin",
+      "poster": "https://image.tmdb.org/t/p/w500/aQ58zwfjAkphuXhl723pA5c2UnG.jpg",
+      "description": "Whether he's playing a Scout Master seducing \"Canteen Boy\", a French teacher annoying his students, a Tough Guy or just talking about his famous \"Schwetty Balls\", Alec Baldwin is undoubtedly one of the funniest SNL hosts of all time. He's become a regular, playing in sketches throughout the years with some of the SNL greats including Phil Hartman, Chris Farley, Mike Meyers, Adam Sandler and Will Ferrell. You're sure to enjoy some of Alec's hilarious celebrity impressions, such as Tony Bennett and Charles Nelson Reilly.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt0389860",
+      "type": "movie",
+      "name": "Click",
+      "poster": "https://image.tmdb.org/t/p/w500/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+      "description": "A married workaholic, Michael Newman doesn't have time for his wife and children, not if he's to impress his ungrateful boss and earn a well-deserved promotion. So when he meets Morty, a loopy sales clerk, he gets the answer to his prayers: a magical remote that allows him to bypass life's little distractions with increasingly hysterical results.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt1667828",
+      "type": "movie",
+      "name": "Comedy Club Shoot-out: Vol. 1",
+      "poster": "https://image.tmdb.org/t/p/w500/iF5owULFbKCK0fwIfqIGQq4tmTn.jpg",
+      "description": "Buckle your seat belts and hang on for a rowdy ride with this stellar compilation of outstanding routines from many of today's most talented comedians, including Adam Sandler, Jerry Seinfeld, Drew Carey, Ellen DeGeneres and Bill Maher. Other top-notch comic talents appearing are Tommy Chong, Rob Schneider, Harry Shearer, Phil Hartman, David Spade, Dave Attell, John Mulrooney, Dennis Regan and Steve-O.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt12432772",
+      "type": "movie",
+      "name": "Kings of Comedy USA",
+      "poster": "https://image.tmdb.org/t/p/w500/fxwXTMKsxxWlDAO3fzPcxj6f7p5.jpg",
+      "description": "This DVD features the instantly recognisable names and faces of the US Kings Of Comedy: Adam Sandler, Chris Rock, Jerry Seinfeld, Tim Allen, Kelsey Grammer, Denis Leary, Jim Carey, Drew Carey, Billy Crystal, Rob Schneider, and Jeff Foxworthy. Hilarious stand-up footage taken from top comedy clubs across America as well as USA network comedy series.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt0490204",
+      "type": "movie",
+      "name": "Reign Over Me",
+      "poster": "https://image.tmdb.org/t/p/w500/b5EtDvwj2gdG1qMBLijamlLfJLB.jpg",
+      "description": "A man who lost his family in the September 11 attack on New York City runs into his old college roommate. Rekindling the friendship is the one thing that appears able to help the man recover from his grief.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tt1003289",
+      "type": "movie",
+      "name": "Saturday Night Live in the '90s: Pop Culture Nation",
+      "poster": "https://image.tmdb.org/t/p/w500/tpbl95fpMgADYda7OHIXwKVNWvj.jpg",
+      "description": "A retrospective of \"Saturday Night Live\" during the 1990's. Includes interviews with the cast and crew as well as hosts. Features memorable sketches and behind the scenes dynamics.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tt0762107",
+      "type": "movie",
+      "name": "I Now Pronounce You Chuck & Larry",
+      "poster": "https://image.tmdb.org/t/p/w500/vF0yEaGyXYsHWRTMmeJaJKp43bj.jpg",
+      "description": "Firefighters Chuck Ford and Larry Valentine are guy's guys, loyal to the core—which is why when widower Larry asks Chuck to pose as his lover so that he can get domestic partner benefits for his kids, his buddy agrees. However, things get dicey when a bureaucrat comes calling, and the boys are forced to present a picture of domestic bliss.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tt0960144",
+      "type": "movie",
+      "name": "You Don't Mess with the Zohan",
+      "poster": "https://image.tmdb.org/t/p/w500/gBhLQmpCPoKFMCGsulMbIFzrBID.jpg",
+      "description": "An Israeli counterterrorism soldier with a secretly fabulous ambition to become a Manhattan hairstylist. Zohan's desire runs so deep that he'll do anything -- including faking his own death and going head-to-head with an Arab cab driver -- to make his dreams come true.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tt1264982",
+      "type": "movie",
+      "name": "VH1 Rock Honors: The Who",
+      "poster": "https://image.tmdb.org/t/p/w500/9K4ISpCXGhXwR2Nelpmw0Au4lqJ.jpg",
+      "description": "The Who were honored at the 2008 ceremony from the Pauley Pavilion at UCLA instead of the usual Las Vegas Mandalay Bay Events Center. The concert consisted of an hour-long performance by the band as well as tributes by Incubus, Pearl Jam, Foo Fighters, Flaming Lips, Adam Sandler and Tenacious D.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tt0960731",
+      "type": "movie",
+      "name": "Bedtime Stories",
+      "poster": "https://image.tmdb.org/t/p/w500/rSOnWm8ahvgThYp8TKGRUTcvsyw.jpg",
+      "description": "Skeeter Bronson is a down-on-his-luck guy who's always telling bedtime stories to his niece and nephew. But his life is turned upside down when the fantastical stories he makes up for entertainment inexplicably turn into reality. Can a bewildered Skeeter manage his own unruly fantasies now that the outrageous characters and situations from his mind have morphed into actual people and events?",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:683184",
+      "type": "movie",
+      "name": "Funny People: Live",
+      "poster": "https://image.tmdb.org/t/p/w500/y7vfU2b6Ojg9VsJZusJZazsi2d0.jpg",
+      "description": "A live stand-up special hosted by Adam Sandler, Seth Rogen, and Judd Apatow broadcast by Comedy Central to promote the movie \"Funny People\".  Not only does this special take another detailed look at the making of \"Funny People,\" it focuses closely on the pursuit of stand-up comedy and how actors such as Seth Rogen and Adam Sandler got in touch with their stand-up roots in order to prepare for the film. In addition, \"Funny People: Live\" showcases live stand-up sets from \"real life funny people\" Sarah Silverman, Patton Oswalt, Russell Brand, Brian Posehn, Greg Giraldo and Maria Bamford as well as sets from the film's cast members.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tt1201167",
+      "type": "movie",
+      "name": "Funny People",
+      "poster": "https://image.tmdb.org/t/p/w500/gEYKD5cWCBGg8Za3hhwDBk3gEsP.jpg",
+      "description": "Famous and wealthy funnyman George Simmons doesn't give much thought to how he treats people until a doctor delivers stunning health news, forcing George to reevaluate his priorities with a little help from aspiring stand-up comic Ira.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tt1566615",
+      "type": "movie",
+      "name": "SNL Presents: A Very Gilly Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/1CMH3eUND7WRe4bjApQlaXlcHPb.jpg",
+      "description": "Holiday special including brand-new material with Alec Baldwin, Steve Martin, the infamous troublemaker \"Gilly,\" and others. The special also features favorite holiday-themed sketches from SNL's 35-year history.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tt1375670",
+      "type": "movie",
+      "name": "Grown Ups",
+      "poster": "https://image.tmdb.org/t/p/w500/cQGM5k1NtU85n4TUlrOrwijSCcm.jpg",
+      "description": "After their high school basketball coach passes away, five good friends and former teammates reunite for a Fourth of July holiday weekend.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tt1564367",
+      "type": "movie",
+      "name": "Just Go with It",
+      "poster": "https://image.tmdb.org/t/p/w500/5nr4n667HD80Wr7dYmqhIYi6CHN.jpg",
+      "description": "While romancing Palmer, a much younger schoolteacher, plastic surgeon Danny Maccabee enlists his loyal assistant Katherine to pretend to be his soon to be ex-wife, in order to cover up a careless lie. When more lies backfire, Katherine's kids become involved, and everyone heads off for a weekend in Hawaii that will change all their lives.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt1222817",
+      "type": "movie",
+      "name": "Zookeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/y3b4AYw8dr4hIKTfEAjxUxx0z8G.jpg",
+      "description": "Kindhearted Griffin Keyes is one of the best-loved caretakers at the Franklin Park Zoo, but he's more comfortable with the animals than with females of his own species as proven by his failed marriage proposal to the self-absorbed Stephanie several years ago. The animals have listened to Griffin pine over her for years and, after she reappears in his life, they decide to help Griffin rekindle the relationship and become the alpha male she wants him to be. They inadvertently reveal their secret ability to talk and, after Griffin's initial shock, teach him the rules of courtship, animal-style. Surprisingly, the animals' advice really works and Griffin is about to get everything he's ever dreamed of--or is he?",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt0810913",
+      "type": "movie",
+      "name": "Jack and Jill",
+      "poster": "https://image.tmdb.org/t/p/w500/p6xV65iiz9agN2IAtf7cgbZC3YF.jpg",
+      "description": "Jack Sadelstein, a successful advertising executive in Los Angeles with a beautiful wife and kids, dreads one event each year: the Thanksgiving visit of his twin sister Jill. Jill's neediness and passive-aggressiveness is maddening to Jack, turning his normally tranquil life upside down.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt3124454",
+      "type": "movie",
+      "name": "Sesame Street: Singing with the Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/nTBg7GMtRJXF68yAF6E8Guinu3s.jpg",
+      "description": "Dance and sing along with this star-studded special from Sesame Street! From Alicia Keys to the Dixie Chicks, Andrea Bocelli, Adam Sandler and more, this video will get your child moving!",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tt1232200",
+      "type": "movie",
+      "name": "That's My Boy",
+      "poster": "https://image.tmdb.org/t/p/w500/oaLhdRsZ5Mq8VfZtA4Wlvjzzn0X.jpg",
+      "description": "While in his teens, Donny fathered a son, Todd, and raised him as a single parent up until Todd's 18th birthday. Now, after not seeing each other for years, Todd's world comes crashing down when Donny resurfaces just before Todd's wedding.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tt0837562",
+      "type": "movie",
+      "name": "Hotel Transylvania",
+      "poster": "https://image.tmdb.org/t/p/w500/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+      "description": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tt2488254",
+      "type": "movie",
+      "name": "Eddie Murphy: One Night Only",
+      "poster": "https://image.tmdb.org/t/p/w500/kpUFMbVTAhZWrcYYJCU5Gn1WJAv.jpg",
+      "description": "Eddie Murphy: One Night Only pays homage to Murphy's journey from a 15-year-old aspiring comedian, through the record-breaking Raw, which remains the highest grossing stand-up film of all time and featuring his indelible characters and impressions from Saturday Night Live including Buckwheat, Gumby, Mr. Robinson and James Brown.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tt2578448",
+      "type": "movie",
+      "name": "12-12-12 | The Concert for Sandy Relief",
+      "poster": "https://image.tmdb.org/t/p/w500/mMmU4hFipk3Ekc6M4Py6YF1yZuz.jpg",
+      "description": "“12-12-12” was a fundraising concert to aid the victims of Hurricane Sandy, it took place on December 12, 2012 at Madison Square Garden. The concert featured Bon Jovi, Eric Clapton, Dave Grohl, Billy Joel, Alicia Keys, Chris Martin (featuring Michael Stipe), The Rolling Stones, Bruce Springsteen & the E Street Band, Eddie Vedder, Roger Waters, Kanye West, The Who, Paul McCartney (featuring Nirvana) as well as other artists.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tt2191701",
+      "type": "movie",
+      "name": "Grown Ups 2",
+      "poster": "https://image.tmdb.org/t/p/w500/hT6ijOtjtYrnyDhN7VA2QWyGFAm.jpg",
+      "description": "Lenny has relocated his family back to the small town where he and his friends grew up. This time around, the grown ups are the ones learning lessons from their kids on a day notoriously full of surprises—the last day of school.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tt3234082",
+      "type": "movie",
+      "name": "12-12-12",
+      "poster": "https://image.tmdb.org/t/p/w500/gHwv9zjRPcrizH6rTWGG9rbUPE9.jpg",
+      "description": "A mix of live performances and behind-the-scenes footage from the televised benefit concert to raise relief funds for victims of Hurricane Sandy in 2012.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tt3591608",
+      "type": "movie",
+      "name": "The Improv: 50 Years Behind the Brick Wall",
+      "poster": "https://image.tmdb.org/t/p/w500/wtai2nIfmOLSszeagurYa0wLe9H.jpg",
+      "description": "Several comic greats pay tribute to the legendary stand-up stage founded by Budd Friedman in 1963.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tt1453402",
+      "type": "movie",
+      "name": "Eat Drink Laugh: The Story of The Comic Strip",
+      "poster": "https://image.tmdb.org/t/p/w500/A3sxYWsUL6uBBI6jr62HQ52Mp4U.jpg",
+      "description": "Showcasing the iconic New York comedy club where Jerry Seinfeld, Eddie Murphy, Chris Rock, Adam Sandler and hundreds of the best comedians of our time honed their craft. Explores the struggles, triumphs, and incredible journey of the people who kept the comedy club’s doors open and the comedians who graced its stage with their unique voices night after night since 1976. Among the comics featured in the film are Richard Belzer, Billy Crystal, Gilbert Gottfried, Arsenio Hall, Carol Leifer, Jay Leno, Richard Lewis, Bill Maher, Jerry Seinfeld, Eddie Murphy, Adam Sandler, Joe Piscopo, Colin Quinn, Paul Provenza, Paul Reiser, Ray Romano, and Chris Rock.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt1086772",
+      "type": "movie",
+      "name": "Blended",
+      "poster": "https://image.tmdb.org/t/p/w500/o2YrH9jS7CAfWjETHFeL0tth79E.jpg",
+      "description": "Recently divorced mom Lauren and widowed dad Jim let their friends push them into a blind date, which goes disastrously wrong. Unsurprisingly, neither wants to see the other ever again. However, fate intervenes when both Jim and Lauren, unbeknownst to each other, purchase one-half of the same vacation package at a South African resort for families, during spring break. They and their children are forced to share the same romantic suite and participate in a slew of family activities together.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt3203616",
+      "type": "movie",
+      "name": "The Cobbler",
+      "poster": "https://image.tmdb.org/t/p/w500/oMgBX4uqF1VIz95tD4iJggz6Ceh.jpg",
+      "description": "Max Simkin repairs shoes in the same New York shop that has been in his family for generations. Disenchanted with the grind of daily life, Max stumbles upon a magical heirloom that allows him to step into the lives of his customers and see the world in a new way. Sometimes walking in another man's shoes is the only way one can discover who they really are.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt3179568",
+      "type": "movie",
+      "name": "Men, Women & Children",
+      "poster": "https://image.tmdb.org/t/p/w500/dzFHIxCcvq2CZVFCsgz7n1z5oIM.jpg",
+      "description": "Follows the story of a group of high school teenagers and their parents as they attempt to navigate the many ways the internet has changed their relationships, their communication, their self-image, and their love lives.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt2784678",
+      "type": "movie",
+      "name": "Top Five",
+      "poster": "https://image.tmdb.org/t/p/w500/hNFhzLpg3A34p9qFXXIBJfQIMoK.jpg",
+      "description": "Though he began in stand-up comedy, Andre Allen hit the big-time as the star of a trilogy of action-comedies about a talking bear but now he wants to be taken seriously. His passion project about the Haitian Revolution, a movie called Uprize, was panned by the NY Times film critic. A couple days before the wedding to his reality star fiancée, he's forced to spend the day with Chelsea Brown, a profile writer for the New York Times. Unexpectedly, he opens up to her, and as they wind their way across New York, he tries to get back in touch with his comedic roots.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt4460272",
+      "type": "movie",
+      "name": "An SNL Valentine",
+      "poster": "https://image.tmdb.org/t/p/w500/yPL0zAwVlGEl4KVSDyzj3gG487w.jpg",
+      "description": "An SNL Valentine is a primetime special that features a variety of Saturday Night Live sketches, themed towards Valentine's Day.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt2120120",
+      "type": "movie",
+      "name": "Pixels",
+      "poster": "https://image.tmdb.org/t/p/w500/d26S5EfVXLNxRXqyFy1yyl3qRq3.jpg",
+      "description": "Video game experts are recruited by the military to fight 1980s-era video game characters who've attacked New York.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt3910602",
+      "type": "movie",
+      "name": "I Am Chris Farley",
+      "poster": "https://image.tmdb.org/t/p/w500/kljSSGgT4bHsL3Ivou5akIcWSrr.jpg",
+      "description": "I am Chris Farley tells his hilarious, touching and wildly entertaining story - from his early days in Madison, Wisconsin, to his time at Second City and Saturday Night Live, then finally his film career (which included hits like Tommy Boy and Black Sheep). The film showcases his most memorable characters and skits from film and television and also includes interviews and insights from his co-stars, family and friends - including the likes of Christina Applegate, Dan Aykroyd, Mike Myers, Bob Odenkirk, Bob Saget and Adam Sandler.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt2510894",
+      "type": "movie",
+      "name": "Hotel Transylvania 2",
+      "poster": "https://image.tmdb.org/t/p/w500/3nFnrivNgipSKZ8LZJJbRSlAcTR.jpg",
+      "description": "When the old-old-old-fashioned vampire Vlad arrives at the hotel for an impromptu family get-together, Hotel Transylvania is in for a collision of supernatural old-school and modern day cool.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt2479478",
+      "type": "movie",
+      "name": "The Ridiculous 6",
+      "poster": "https://image.tmdb.org/t/p/w500/kPc80jywR5Nm2KIQjkY5i4VXSx4.jpg",
+      "description": "When his long-lost outlaw father returns, Tommy \"White Knife\" Stockburn goes on an adventure-filled journey across the Old West with his five brothers.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt4769836",
+      "type": "movie",
+      "name": "The Do-Over",
+      "poster": "https://image.tmdb.org/t/p/w500/z9VCm2E6gCAwbM2SELRawfqdXBO.jpg",
+      "description": "The life of a bank manager is turned upside down when a friend from his past manipulates him into faking his own death and taking off on an adventure.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tt6724372",
+      "type": "movie",
+      "name": "Netflix Live",
+      "poster": "https://image.tmdb.org/t/p/w500/4Ghn0LSESaPZUFIhgQKrCMfluwm.jpg",
+      "description": "Toasters toasting. Grass growing. Fans blowing. With Netflix Live, you can experience life's biggest thrills, right from the comfort of your couch.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tt5893332",
+      "type": "movie",
+      "name": "Sandy Wexler",
+      "poster": "https://image.tmdb.org/t/p/w500/38SDqWOt4utiLOnWlas7BfrYQGS.jpg",
+      "description": "When a hapless but dedicated talent manager signs his first client who actually has talent, his career finally starts to take off.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tt6450752",
+      "type": "movie",
+      "name": "Puppy!",
+      "poster": "https://image.tmdb.org/t/p/w500/sNxIazoQqDQukfQqkYxTgx9DRbu.jpg",
+      "description": "The residents of Hotel Transylvania find their world turned upside-down when youngster Dennis gets a surprise monster-sized pet.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tt5536736",
+      "type": "movie",
+      "name": "The Meyerowitz Stories (New and Selected)",
+      "poster": "https://image.tmdb.org/t/p/w500/c9teDTgwxgnb7wnZjZo4oNcF80R.jpg",
+      "description": "An estranged family gathers together in New York for an event celebrating the artistic work of their father.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tt7657600",
+      "type": "movie",
+      "name": "Night of Too Many Stars: America Unites for Autism Programs",
+      "poster": "https://image.tmdb.org/t/p/w500/rsiWb2BAerpKMAM7xpKzDj8t3PX.jpg",
+      "description": "Jon Stewart returns to television to host a live show presented from The Theater at Madison Square Garden in New York. Benefiting NEXT for Autism, the special features stand-up performances, sketches and short films.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tt6821012",
+      "type": "movie",
+      "name": "The Week Of",
+      "poster": "https://image.tmdb.org/t/p/w500/60FYEhsnY1gHsqhMbfsC1uOP8cT.jpg",
+      "description": "The parents of a soon-to-be married couple make the final preparations for the wedding ceremony.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tt5220122",
+      "type": "movie",
+      "name": "Hotel Transylvania 3: Summer Vacation",
+      "poster": "https://image.tmdb.org/t/p/w500/lzE5BwGQea1nek7TPXUuC5AZ6rq.jpg",
+      "description": "Dracula, Mavis, Johnny and the rest of the Drac Pack take a vacation on a luxury Monster Cruise Ship, where Dracula falls in love with the ship’s captain, Ericka, who’s secretly a descendant of Abraham Van Helsing, the notorious monster slayer.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tt9036126",
+      "type": "movie",
+      "name": "Adam Sandler: 100% Fresh",
+      "poster": "https://image.tmdb.org/t/p/w500/ykIpbOWvqx3Jz6oMFss5ldIVkfU.jpg",
+      "description": "Adam Sandler takes his comical musical musings back out on the road, from comedy clubs to concert halls to one very unsuspecting subway station.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tt1618434",
+      "type": "movie",
+      "name": "Murder Mystery",
+      "poster": "https://image.tmdb.org/t/p/w500/bSMSO9xupd4R4vwTPqigHn2quLN.jpg",
+      "description": "On a long-awaited trip to Europe, a New York City cop and his hairdresser wife scramble to solve a baffling murder aboard a billionaire's yacht.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tt5727208",
+      "type": "movie",
+      "name": "Uncut Gems",
+      "poster": "https://image.tmdb.org/t/p/w500/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg",
+      "description": "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime. Howard must perform a precarious high-wire act, balancing business, family, and encroaching adversaries on all sides in his relentless pursuit of the ultimate win.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tt11620752",
+      "type": "movie",
+      "name": "Goldman v Silverman",
+      "poster": "https://image.tmdb.org/t/p/w500/leslGAKPG0HS37gt3Zr6vu8MM3v.jpg",
+      "description": "Rod Goldman and Al Silverman are street performers who work the tourist scene of Times Square. Goldman gets no respect and Silverman is the first one to make sure of that.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt16419168",
+      "type": "movie",
+      "name": "Question & Answer",
+      "poster": "https://image.tmdb.org/t/p/w500/a19rfs9jUkEvK9wqJmk2o7W6S1X.jpg",
+      "description": "The Safdie brothers go undercover to record an interview with Adam Sandler, the star of their film UNCUT GEMS.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:682184",
+      "type": "movie",
+      "name": "Money on the Street: The Making of Uncut Gems",
+      "poster": "https://image.tmdb.org/t/p/w500/b1nsHlmatQ59kTmI26dKdBkIyCa.jpg",
+      "description": "A behind the scenes look at Uncut Gems (2019) by the Safdie Brothers with interviews from the cast and more.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt12261856",
+      "type": "movie",
+      "name": "Feeding America Comedy Festival",
+      "poster": "https://image.tmdb.org/t/p/w500/mE6PuUktz0zAfI5PvsNXDdDZEzu.jpg",
+      "description": "All-star comics perform in support of Feeding America.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt12792672",
+      "type": "movie",
+      "name": "Adam Sandler: Funny Guy",
+      "poster": "https://image.tmdb.org/t/p/w500/lvsZutmPY7NcVTRQrwqpi1Nm3q6.jpg",
+      "description": "Adam remains a consistent favorite among fans who are comforted that they will always have a good time. Get the inside story on this fascinating actor, comedian, screenwriter, producer, husband, father, and forever FUNNY GUY.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt10682266",
+      "type": "movie",
+      "name": "Hubie Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/dbhC6qRydXyRmpUdcl9bL9rARya.jpg",
+      "description": "Hubie Dubois, despite his devotion to his hometown of Salem, Massachusetts (and its legendary Halloween celebration), is a figure of mockery for kids and adults alike. But this year, something really is going bump in the night, and it’s up to Hubie to save Halloween.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt14644126",
+      "type": "movie",
+      "name": "Kevin Garnett: Anything Is Possible",
+      "poster": "https://image.tmdb.org/t/p/w500/sgncJ84O2hK80mNfXaO3f2NsehX.jpg",
+      "description": "Follow Kevin Garnett's remarkable career and the pivotal moments that defined it.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tt19433494",
+      "type": "movie",
+      "name": "Winona Ryder: The Ghosts She Called",
+      "poster": "https://image.tmdb.org/t/p/w500/rSA131VRzZcu6XlJUSUEFu4P5Xc.jpg",
+      "description": "A portrait of the actress Winona Ryder, the great muse of nineties cinema, who, although she has had an atypical and somewhat erratic career, has always offered performances as sensitive as they are honest.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt20201450",
+      "type": "movie",
+      "name": "Norm Macdonald: Nothing Special",
+      "poster": "https://image.tmdb.org/t/p/w500/jwQJSMxMn4aIlgNzHIp8HRKIKcF.jpg",
+      "description": "In his final comedy special, Norm Macdonald ponders casinos, cannibalism, living wills and why you have to be ready for whatever life throws your way.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt8009428",
+      "type": "movie",
+      "name": "Hustle",
+      "poster": "https://image.tmdb.org/t/p/w500/xWic7kPq13oRxYjbGLApXCnc7pz.jpg",
+      "description": "After discovering a once-in-a-lifetime player with a rocky past abroad, a down on his luck basketball scout takes it upon himself to bring the phenom to the States without his team's approval. Against the odds, they have one final shot to prove they have what it takes to make it in the NBA.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt1540884",
+      "type": "movie",
+      "name": "Finding Sandler",
+      "poster": "https://image.tmdb.org/t/p/w500/rrc6rutwtuJwTBhjOZSQ5OBGVCU.jpg",
+      "description": "Years after a missed opportunity with his hero (Adam Sandler), a determined young filmmaker (David Seth Cohen) goes on a quest to re-capture what could have been.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt15255288",
+      "type": "movie",
+      "name": "Murder Mystery 2",
+      "poster": "https://image.tmdb.org/t/p/w500/s1VzVhXlqsevi8zeCMG9A16nEUf.jpg",
+      "description": "After starting their own detective agency, Nick and Audrey Spitz land a career-making case when their billionaire pal is kidnapped from his wedding.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt21276878",
+      "type": "movie",
+      "name": "You Are So Not Invited to My Bat Mitzvah",
+      "poster": "https://image.tmdb.org/t/p/w500/ukpifWBW2xEmMtJX4bCpoNpWEr2.jpg",
+      "description": "Stacy and Lydia are BFFs who've always dreamed about having epic bat mitzvahs. But things start to go comically awry when a popular boy and middle school drama threatens their friendship and their rite of passage.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt5755238",
+      "type": "movie",
+      "name": "Leo",
+      "poster": "https://image.tmdb.org/t/p/w500/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg",
+      "description": "Jaded 74-year-old reptile Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students — including an impossibly mean substitute teacher.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt11097384",
+      "type": "movie",
+      "name": "Spaceman",
+      "poster": "https://image.tmdb.org/t/p/w500/f46WvKEsBn98WJbPJcO47ZoKn6B.jpg",
+      "description": "Six months into a solo mission, a lonely astronaut confronts the cracks in his marriage with help from a mysterious creature he discovers on his ship.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt33081211",
+      "type": "movie",
+      "name": "Adam Sandler: Love You",
+      "poster": "https://image.tmdb.org/t/p/w500/qiLCOoJoMrheVzbgrurjp57upf8.jpg",
+      "description": "Adam Sandler hits the stage for a thrillingly unpredictable comedy special featuring songs, jokes, party-crashing dogs and plenty of love.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1587298",
+      "type": "movie",
+      "name": "An SNL Thanksgiving",
+      "poster": "https://image.tmdb.org/t/p/w500/xf9aejUaUvFPL1vPTQ1EccNN2kP.jpg",
+      "description": "Hope you've got an appetite for a buffet of Thanksgiving-themed SNL sketches from the past 50 years, from musical tributes to commercial parodies to dinners that go horribly, hilariously wrong to cat adoption events filled with sexual tension. Don't miss A Saturday Night Live Thanksgiving, which compiles two hours of the best SNL sketches about and inspired by the holiday.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt35076584",
+      "type": "movie",
+      "name": "Ladies & Gentlemen... 50 Years of SNL Music",
+      "poster": "https://image.tmdb.org/t/p/w500/wiIfy2MXau1VPdi6z0Z0oYYT7ne.jpg",
+      "description": "Untold stories behind the culture-defining and newsmaking musical performances, sketches and cameos of the past 50 years.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt36893731",
+      "type": "movie",
+      "name": "Netflix Tudum 2025",
+      "poster": "https://image.tmdb.org/t/p/w500/jTZ5yiFpJPc19lA6uoT9zafHr0f.jpg",
+      "description": "Celebrate your favorite shows and movies at this star-studded, live global fan event with special performances and exclusive reveals.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt31868189",
+      "type": "movie",
+      "name": "Happy Gilmore 2",
+      "poster": "https://image.tmdb.org/t/p/w500/E3dPHPJigkXwuiE0n1vzz0se8a.jpg",
+      "description": "Happy Gilmore isn't done with golf — not by a long shot. Since his retirement after his first Tour Championship win, Gilmore returns to finance his daughter's ballet classes.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt31313835",
+      "type": "movie",
+      "name": "Stans",
+      "poster": "https://image.tmdb.org/t/p/w500/jqIvV9wWIA5h1UREfCcnBBlcr6Q.jpg",
+      "description": "A revealing, edgy, and disarmingly personal journey into the world of superfandom, told through the lens of one of the world's most iconic and enduring artists, Eminem, and the fans that worship him.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt38611134",
+      "type": "movie",
+      "name": "Downey Wrote That",
+      "poster": "https://image.tmdb.org/t/p/w500/cSAD12zaiEyPMc15pEHBsurkSfD.jpg",
+      "description": "Exploring the sketches, contributions and influence of Jim Downey, one of the most impactful comedy writers in the history of \"Saturday Night Live.\"",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt35627915",
+      "type": "movie",
+      "name": "Being Eddie",
+      "poster": "https://image.tmdb.org/t/p/w500/8behxK3x7kiCupdrENmOCkOcs8N.jpg",
+      "description": "From teen comedian to Hollywood legend, Eddie Murphy revisits his extraordinary showbiz ride with raw honesty and humor.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt30446847",
+      "type": "movie",
+      "name": "Jay Kelly",
+      "poster": "https://image.tmdb.org/t/p/w500/lEXYpY9X17pGC7xYYy17Guv0L3J.jpg",
+      "description": "Famous movie actor Jay Kelly embarks on a journey of self-discovery, confronting both his past and present, accompanied by his devoted manager, Ron.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt39074337",
+      "type": "movie",
+      "name": "My Next Guest with David Letterman and Adam Sandler",
+      "poster": "https://image.tmdb.org/t/p/w500/lW6eSQQYJe8NgQgd3RSgFhi4Vp7.jpg",
+      "description": "Adam Sandler invites Dave backstage on his comedy tour, then they sit down at NYU to chat about stand-up, famous roles and his beloved Stratocaster.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt39115217",
+      "type": "movie",
+      "name": "The Making of Jay Kelly",
+      "poster": "https://image.tmdb.org/t/p/w500/wdYWaCYcTmyAgTN2AHCrjYPi0cp.jpg",
+      "description": "From the immersive opening shot to the emotional final line, go behind the scenes with director Noah Baumbach, George Clooney, Adam Sandler and more.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt39847629",
+      "type": "movie",
+      "name": "Lorne",
+      "poster": "https://image.tmdb.org/t/p/w500/3n3mGGQI1HkmzUlcPubMZ9QvcJA.jpg",
+      "description": "An unprecedented, behind-the-scenes glimpse at the man who built the inimitable empire of comedy, shaping television and culture for generations. The documentary features exclusive footage, archival treasures, and candid interviews with the show’s most iconic cast members and writers including Tina Fey, Maya Rudolph, John Mulaney, Andy Samberg, Conan O’Brien, Chris Rock and many more.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43961446",
+      "type": "movie",
+      "name": "9/11: United We Stand -- 25 Years Later",
+      "poster": "https://image.tmdb.org/t/p/w500/2D7gAc7lpMTVAckI55tK5rYjUGo.jpg",
+      "description": "Explore how sports, music, Broadway and comedy helped Americans rediscover joy and begin to heal in the wake of the 9/11 attacks.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt44822485",
+      "type": "movie",
+      "name": "Norm: The Tale of Norm Macdonald",
+      "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
+      "description": "Go down a wormhole in this documentary on master of deadpan humor Norm Macdonald, whose life and career were uncompromising yet full of contradictions.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

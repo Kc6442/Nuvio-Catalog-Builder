@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.adam.sandler.filmography",
+  "version": "0.1.0",
+  "name": "Adam Sandler Complete Filmography",
+  "description": "Adam Sandler movie acting credits in release order, including voice roles and cameos where credited.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "adam-sandler-filmography",
+      "name": "Adam Sandler Complete Filmography"
+    }
+  ]
+}
