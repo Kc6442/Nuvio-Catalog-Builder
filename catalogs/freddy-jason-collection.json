@@ -1,0 +1,88 @@
+{
+  "catalog_id": "freddy-jason-collection",
+  "name": "Freddy & Jason Collection",
+  "description": "Friday the 13th and A Nightmare on Elm Street films, with Freddy vs. Jason as the finale.",
+  "type": "movie",
+  "movies": [
+    [
+      "Friday the 13th",
+      1980
+    ],
+    [
+      "Friday the 13th Part 2",
+      1981
+    ],
+    [
+      "Friday the 13th Part III",
+      1982
+    ],
+    [
+      "Friday the 13th: The Final Chapter",
+      1984
+    ],
+    [
+      "Friday the 13th: A New Beginning",
+      1985
+    ],
+    [
+      "Friday the 13th Part VI: Jason Lives",
+      1986
+    ],
+    [
+      "Friday the 13th Part VII: The New Blood",
+      1988
+    ],
+    [
+      "Friday the 13th Part VIII: Jason Takes Manhattan",
+      1989
+    ],
+    [
+      "Jason Goes to Hell: The Final Friday",
+      1993
+    ],
+    [
+      "Jason X",
+      2001
+    ],
+    [
+      "Friday the 13th",
+      2009
+    ],
+    [
+      "A Nightmare on Elm Street",
+      1984
+    ],
+    [
+      "A Nightmare on Elm Street 2: Freddy's Revenge",
+      1985
+    ],
+    [
+      "A Nightmare on Elm Street 3: Dream Warriors",
+      1987
+    ],
+    [
+      "A Nightmare on Elm Street 4: The Dream Master",
+      1988
+    ],
+    [
+      "A Nightmare on Elm Street 5: The Dream Child",
+      1989
+    ],
+    [
+      "Freddy's Dead: The Final Nightmare",
+      1991
+    ],
+    [
+      "New Nightmare",
+      1994
+    ],
+    [
+      "A Nightmare on Elm Street",
+      2010
+    ],
+    [
+      "Freddy vs. Jason",
+      2003
+    ]
+  ]
+}
