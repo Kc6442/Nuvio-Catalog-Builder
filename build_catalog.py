@@ -27,8 +27,28 @@ def build(config):
     if not slug or not all(c.islower() or c.isdigit() or c == "-" for c in slug):
         raise SystemExit("catalog_id must contain only lowercase letters, digits and hyphens")
     kind = config.get("type", "movie")
-    if kind not in ("movie", "series"):
-        raise SystemExit("type must be movie or series")
+    if kind not in ("movie", "series", "mixed"):
+        raise SystemExit("type must be movie, series or mixed")
+    if kind == "mixed":
+        ordered = config.get("entries", [])
+        if not ordered:
+            raise SystemExit("Mixed catalog entries cannot be empty")
+        by_type = {"movie": [], "series": []}
+        for item in ordered:
+            media_type, title, year = item
+            if media_type not in by_type:
+                raise SystemExit("Invalid mixed catalog media type")
+            by_type[media_type].append([title, year])
+        for media_type, entries_for_type in by_type.items():
+            if entries_for_type:
+                child = dict(config, type=media_type)
+                child["movies" if media_type == "movie" else "shows"] = entries_for_type
+                build(child)
+        base = root / "published" / slug
+        manifest = {"id":"com.kc6442."+slug.replace("-","."),"version":"0.1.0","name":config["name"],"description":config["description"],"resources":["catalog"],"types":[t for t in by_type if by_type[t]],"catalogs":[{"type":t,"id":slug,"name":config["name"]} for t in by_type if by_type[t]]}
+        (base/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n")
+        (base/"release_order.json").write_text(json.dumps({"entries":[{"type":t,"name":n,"year":y} for t,n,y in ordered]},indent=2)+"\n")
+        return
     entries = config.get("shows" if kind == "series" else "movies", [])
     if not entries:
         raise SystemExit("Catalog entries cannot be empty")
@@ -38,6 +58,8 @@ def build(config):
         date_key = "first_air_date" if kind == "series" else "release_date"
         title_key = "name" if kind == "series" else "title"
         results = tmdb("search/"+tmdb_kind,{"query":title,"first_air_date_year" if kind == "series" else "year":year}).get("results",[])
+        if not results and kind == "series":
+            results = tmdb("search/tv",{"query":title}).get("results",[])
         matches = [m for m in results if norm(m.get(title_key,"")) == norm(title) and (m.get(date_key) or "").startswith(str(year))]
         if not matches and kind == "series":
             aliases = {"VisionQuest": ["Vision Quest", "Marvel Studios' VisionQuest", "Vision"]}
