@@ -57,6 +57,22 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tt9861934",
+      "type": "series",
+      "name": "Alien: Isolation – The Digital Series",
+      "poster": "https://image.tmdb.org/t/p/w500/uLc3qwuXLnU2SJq2uJ3HSkeGWOs.jpg",
+      "description": "Fifteen years have passed since the deep-space freighter Nostromo disappeared with all hands. Representatives from the Weyland-Yutani Corporation approach Amanda Ripley with news that the Nostromo's flight recorder has finally been found and brought to the space station Sevastopol.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tt13623632",
+      "type": "series",
+      "name": "Alien: Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tt0093773",
       "type": "movie",
       "name": "Predator",
@@ -127,22 +143,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5iTwPDNtvK6ZZF607BHBbU3HO0B.jpg",
       "description": "After a horrifying PredAlien crash-lands near a small Colorado town, killing everyone it encounters and producing countless Alien offspring, a lone Predator arrives to \"clean up\" the infestation.",
       "releaseInfo": "2007"
-    },
-    {
-      "id": "tt9861934",
-      "type": "series",
-      "name": "Alien: Isolation – The Digital Series",
-      "poster": "https://image.tmdb.org/t/p/w500/uLc3qwuXLnU2SJq2uJ3HSkeGWOs.jpg",
-      "description": "Fifteen years have passed since the deep-space freighter Nostromo disappeared with all hands. Representatives from the Weyland-Yutani Corporation approach Amanda Ripley with news that the Nostromo's flight recorder has finally been found and brought to the space station Sevastopol.",
-      "releaseInfo": "2019"
-    },
-    {
-      "id": "tt13623632",
-      "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
-      "releaseInfo": "2025"
     }
   ]
 }
