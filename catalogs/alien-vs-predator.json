@@ -1,0 +1,98 @@
+{
+  "catalog_id": "alien-vs-predator",
+  "name": "Alien vs Predator",
+  "description": "Alien and Predator films and television series in release order",
+  "type": "mixed",
+  "entries": [
+    [
+      "movie",
+      "Alien",
+      1979
+    ],
+    [
+      "movie",
+      "Aliens",
+      1986
+    ],
+    [
+      "movie",
+      "Predator",
+      1987
+    ],
+    [
+      "movie",
+      "Predator 2",
+      1990
+    ],
+    [
+      "movie",
+      "Alien 3",
+      1992
+    ],
+    [
+      "movie",
+      "Alien Resurrection",
+      1997
+    ],
+    [
+      "movie",
+      "Alien vs. Predator",
+      2004
+    ],
+    [
+      "movie",
+      "Aliens vs. Predator: Requiem",
+      2007
+    ],
+    [
+      "movie",
+      "Predators",
+      2010
+    ],
+    [
+      "movie",
+      "Prometheus",
+      2012
+    ],
+    [
+      "movie",
+      "Alien: Covenant",
+      2017
+    ],
+    [
+      "movie",
+      "The Predator",
+      2018
+    ],
+    [
+      "series",
+      "Alien: Isolation – The Digital Series",
+      2019
+    ],
+    [
+      "movie",
+      "Prey",
+      2022
+    ],
+    [
+      "movie",
+      "Alien: Romulus",
+      2024
+    ],
+    [
+      "series",
+      "Alien: Earth",
+      2025
+    ],
+    [
+      "movie",
+      "Predator: Killer of Killers",
+      2025
+    ],
+    [
+      "movie",
+      "Predator: Badlands",
+      2025
+    ]
+  ]
+}
