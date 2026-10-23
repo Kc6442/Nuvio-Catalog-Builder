@@ -86,13 +86,72 @@ def validate_metas(metas, catalog_label):
             raise SystemExit(f"{label}: duplicate metadata ID {meta['id']}")
         seen_ids.add(meta["id"])
 
+def build_actor_catalog(config, slug):
+    """Build movie filmography from TMDB cast credits for any actor or actress."""
+    person_id = config.get("person_id")
+    actor = config.get("actor")
+    if person_id is None:
+        if not isinstance(actor, str) or not actor.strip():
+            raise SystemExit(f"{slug}: actor must be a nonempty name, or set person_id")
+        people = tmdb("search/person", {"query": actor}).get("results", [])
+        matches = [p for p in people if norm(p.get("name", "")) == norm(actor)]
+        if len(matches) != 1:
+            raise SystemExit(
+                f"{slug}: actor name is missing or ambiguous: {actor!r}. "
+                "Specify person_id from TMDB to select the right person."
+            )
+        person_id = matches[0]["id"]
+    if not str(person_id).isdigit():
+        raise SystemExit(f"{slug}: person_id must be a numeric TMDB person ID")
+    person = tmdb(f"person/{person_id}")
+    credits = tmdb(f"person/{person_id}/movie_credits").get("cast", [])
+    # Exclude unreleased entries and missing posters; avoid broken Nuvio metadata.
+    unique = {}
+    for movie in credits:
+        date = movie.get("release_date") or ""
+        if not (len(date) >= 4 and date[:4].isdigit() and movie.get("poster_path")):
+            continue
+        if movie.get("adult"):
+            continue
+        unique[movie["id"]] = movie
+    ordered = sorted(unique.values(), key=lambda m: (m["release_date"], m.get("title", ""), m["id"]))
+    metas = []
+    for movie in ordered:
+        external = tmdb(f"movie/{movie['id']}/external_ids")
+        identifier = external.get("imdb_id") or "tmdb:" + str(movie["id"])
+        metas.append({
+            "id": identifier, "type": "movie",
+            "name": movie.get("title") or movie.get("original_title") or str(movie["id"]),
+            "poster": "https://image.tmdb.org/t/p/w500" + movie["poster_path"],
+            "description": movie.get("overview") or "",
+            "releaseInfo": movie["release_date"][:4],
+        })
+    validate_metas(metas, slug + "/actor")
+    base = root / "published" / slug
+    target = base / "catalog" / "movie" / (slug + ".json")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps({"metas": metas}, ensure_ascii=False, indent=2) + "\\n")
+    manifest = {
+        "id": "com.kc6442." + slug.replace("-", "."),
+        "version": "0.1.0", "name": config.get("name") or person["name"],
+        "description": config.get("description") or ("Filmography of " + person["name"]),
+        "resources": ["catalog"], "types": ["movie"],
+        "catalogs": [{"type": "movie", "id": slug,
+                      "name": config.get("name") or person["name"]}],
+    }
+    (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n")
+    print(f"Built {len(metas)} films for {person['name']}: {target}")
+
 def build(config):
     slug = config["catalog_id"]
     if not slug or not all(c.islower() or c.isdigit() or c == "-" for c in slug):
         raise SystemExit("catalog_id must contain only lowercase letters, digits and hyphens")
     kind = config.get("type", "movie")
+    if kind == "actor":
+        build_actor_catalog(config, slug)
+        return
     if kind not in ("movie", "series", "mixed", "mixed_row"):
-        raise SystemExit("type must be movie, series, mixed or mixed_row")
+        raise SystemExit("type must be movie, series, mixed, mixed_row or actor")
     if kind == "mixed_row":
         ordered = config.get("entries", [])
         if not ordered:
