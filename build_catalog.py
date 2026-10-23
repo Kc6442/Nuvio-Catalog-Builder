@@ -156,10 +156,18 @@ def build(config):
                 f"No safe TMDB match for {title!r} ({year}). "
                 "Check the title/year or supply a TMDB ID."
             )
-        candidates.sort(key=lambda pair: pair[0], reverse=True)
+        # Prefer the most established TMDB result for equal title/year scores.
+        # Popularity breaks ties for remakes and identically named releases;
+        # the TMDB ID makes ordering deterministic even on exact ties.
+        candidates.sort(
+            key=lambda pair: (
+                pair[0],
+                float(pair[1].get("popularity") or 0),
+                int(pair[1]["id"]),
+            ),
+            reverse=True,
+        )
         m = candidates[0][1]
-        if len(candidates) > 1 and candidates[0][0] == candidates[1][0] and candidates[0][1]["id"] != candidates[1][1]["id"]:
-            raise SystemExit(f"Ambiguous TMDB match for {title!r} ({year}); supply a TMDB ID.")
         if not m.get("poster_path"):
             raise SystemExit(f"Missing poster: {title} ({year})")
         external = tmdb(f"{tmdb_kind}/{m['id']}/external_ids")
