@@ -145,7 +145,7 @@ def build_actor_catalog(config, slug):
         validate_metas(metas, slug + "/" + kind)
         target = base / "catalog" / kind / (slug + ".json")
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(json.dumps({"metas": metas}, ensure_ascii=False, indent=2) + "\\n")
+        target.write_text(json.dumps({"metas": metas}, ensure_ascii=False, indent=2) + "\n")
         catalogs.append({"type": kind, "id": slug,
                          "name": (config.get("name") or person["name"]) + (" Movies" if kind == "movie" else " TV Shows")})
         print(f"Built {len(metas)} {kind} credits for {person['name']}")
@@ -158,7 +158,7 @@ def build_actor_catalog(config, slug):
         "resources": ["catalog"], "types": [c["type"] for c in catalogs],
         "catalogs": catalogs,
     }
-    (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n")
+    (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
 
 def build(config):
     slug = config["catalog_id"]
