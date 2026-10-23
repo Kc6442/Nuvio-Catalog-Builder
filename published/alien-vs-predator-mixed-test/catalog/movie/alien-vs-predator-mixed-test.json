@@ -17,22 +17,6 @@
       "releaseInfo": "1986"
     },
     {
-      "id": "tt0093773",
-      "type": "movie",
-      "name": "Predator",
-      "poster": "https://image.tmdb.org/t/p/w500/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
-      "description": "A team of elite commandos on a secret mission in a Central American jungle come to find themselves hunted by an extraterrestrial warrior.",
-      "releaseInfo": "1987"
-    },
-    {
-      "id": "tt0100403",
-      "type": "movie",
-      "name": "Predator 2",
-      "poster": "https://image.tmdb.org/t/p/w500/83X4VwY9sdSJykskmsplIVG0a4h.jpg",
-      "description": "A police chief in the war-torn streets of Los Angeles discovers that an extraterrestrial creature is hunting down residents - and that he is the next target.",
-      "releaseInfo": "1990"
-    },
-    {
       "id": "tt0103644",
       "type": "movie",
       "name": "Alien³",
@@ -47,30 +31,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9aRDMlU5Zwpysilm0WCWzU2PCFv.jpg",
       "description": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
       "releaseInfo": "1997"
-    },
-    {
-      "id": "tt0370263",
-      "type": "movie",
-      "name": "AVP: Alien vs. Predator",
-      "poster": "https://image.tmdb.org/t/p/w500/2DKoPom57PVtJWcJlq7bS7JpahU.jpg",
-      "description": "When scientists discover something near Antarctica that appears to be a buried Pyramid, they send a research team out to investigate. Little do they know that they are about to step into a hunting ground where Aliens are grown as sport for the Predator race.",
-      "releaseInfo": "2004"
-    },
-    {
-      "id": "tt0758730",
-      "type": "movie",
-      "name": "Aliens vs. Predator: Requiem",
-      "poster": "https://image.tmdb.org/t/p/w500/5iTwPDNtvK6ZZF607BHBbU3HO0B.jpg",
-      "description": "After a horrifying PredAlien crash-lands near a small Colorado town, killing everyone it encounters and producing countless Alien offspring, a lone Predator arrives to \"clean up\" the infestation.",
-      "releaseInfo": "2007"
-    },
-    {
-      "id": "tt1424381",
-      "type": "movie",
-      "name": "Predators",
-      "poster": "https://image.tmdb.org/t/p/w500/wdniP8NDaJIydi1hMxhpbJMUfr6.jpg",
-      "description": "A group of cold-blooded killers find themselves trapped on an alien planet to be hunted by extraterrestrial Predators.",
-      "releaseInfo": "2010"
     },
     {
       "id": "tt1446714",
@@ -89,30 +49,6 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tt3829266",
-      "type": "movie",
-      "name": "The Predator",
-      "poster": "https://image.tmdb.org/t/p/w500/a3eWGF6YPF7No5Rbtjc8QpDvz7l.jpg",
-      "description": "When a young boy accidentally triggers the universe's most lethal hunters' return to Earth, only a ragtag crew of ex-soldiers and a disgruntled scientist can prevent the end of the human race.",
-      "releaseInfo": "2018"
-    },
-    {
-      "id": "tt9861934",
-      "type": "series",
-      "name": "Alien: Isolation – The Digital Series",
-      "poster": "https://image.tmdb.org/t/p/w500/uLc3qwuXLnU2SJq2uJ3HSkeGWOs.jpg",
-      "description": "Fifteen years have passed since the deep-space freighter Nostromo disappeared with all hands. Representatives from the Weyland-Yutani Corporation approach Amanda Ripley with news that the Nostromo's flight recorder has finally been found and brought to the space station Sevastopol.",
-      "releaseInfo": "2019"
-    },
-    {
-      "id": "tt11866324",
-      "type": "movie",
-      "name": "Prey",
-      "poster": "https://image.tmdb.org/t/p/w500/2FKjLRt7oK1bRRIrxgWmthbBdFh.jpg",
-      "description": "When danger threatens her camp, the fierce and highly skilled Comanche warrior Naru sets out to protect her people. But the prey she stalks turns out to be a highly evolved alien predator with a technically advanced arsenal.",
-      "releaseInfo": "2022"
-    },
-    {
       "id": "tt18412256",
       "type": "movie",
       "name": "Alien: Romulus",
@@ -121,12 +57,44 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tt13623632",
-      "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
-      "releaseInfo": "2025"
+      "id": "tt0093773",
+      "type": "movie",
+      "name": "Predator",
+      "poster": "https://image.tmdb.org/t/p/w500/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
+      "description": "A team of elite commandos on a secret mission in a Central American jungle come to find themselves hunted by an extraterrestrial warrior.",
+      "releaseInfo": "1987"
+    },
+    {
+      "id": "tt0100403",
+      "type": "movie",
+      "name": "Predator 2",
+      "poster": "https://image.tmdb.org/t/p/w500/83X4VwY9sdSJykskmsplIVG0a4h.jpg",
+      "description": "A police chief in the war-torn streets of Los Angeles discovers that an extraterrestrial creature is hunting down residents - and that he is the next target.",
+      "releaseInfo": "1990"
+    },
+    {
+      "id": "tt1424381",
+      "type": "movie",
+      "name": "Predators",
+      "poster": "https://image.tmdb.org/t/p/w500/wdniP8NDaJIydi1hMxhpbJMUfr6.jpg",
+      "description": "A group of cold-blooded killers find themselves trapped on an alien planet to be hunted by extraterrestrial Predators.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tt3829266",
+      "type": "movie",
+      "name": "The Predator",
+      "poster": "https://image.tmdb.org/t/p/w500/a3eWGF6YPF7No5Rbtjc8QpDvz7l.jpg",
+      "description": "When a young boy accidentally triggers the universe's most lethal hunters' return to Earth, only a ragtag crew of ex-soldiers and a disgruntled scientist can prevent the end of the human race.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tt11866324",
+      "type": "movie",
+      "name": "Prey",
+      "poster": "https://image.tmdb.org/t/p/w500/2FKjLRt7oK1bRRIrxgWmthbBdFh.jpg",
+      "description": "When danger threatens her camp, the fierce and highly skilled Comanche warrior Naru sets out to protect her people. But the prey she stalks turns out to be a highly evolved alien predator with a technically advanced arsenal.",
+      "releaseInfo": "2022"
     },
     {
       "id": "tt36463894",
@@ -142,6 +110,38 @@
       "name": "Predator: Badlands",
       "poster": "https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
       "description": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt0370263",
+      "type": "movie",
+      "name": "AVP: Alien vs. Predator",
+      "poster": "https://image.tmdb.org/t/p/w500/2DKoPom57PVtJWcJlq7bS7JpahU.jpg",
+      "description": "When scientists discover something near Antarctica that appears to be a buried Pyramid, they send a research team out to investigate. Little do they know that they are about to step into a hunting ground where Aliens are grown as sport for the Predator race.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tt0758730",
+      "type": "movie",
+      "name": "Aliens vs. Predator: Requiem",
+      "poster": "https://image.tmdb.org/t/p/w500/5iTwPDNtvK6ZZF607BHBbU3HO0B.jpg",
+      "description": "After a horrifying PredAlien crash-lands near a small Colorado town, killing everyone it encounters and producing countless Alien offspring, a lone Predator arrives to \"clean up\" the infestation.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tt9861934",
+      "type": "series",
+      "name": "Alien: Isolation – The Digital Series",
+      "poster": "https://image.tmdb.org/t/p/w500/uLc3qwuXLnU2SJq2uJ3HSkeGWOs.jpg",
+      "description": "Fifteen years have passed since the deep-space freighter Nostromo disappeared with all hands. Representatives from the Weyland-Yutani Corporation approach Amanda Ripley with news that the Nostromo's flight recorder has finally been found and brought to the space station Sevastopol.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tt13623632",
+      "type": "series",
+      "name": "Alien: Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
       "releaseInfo": "2025"
     }
   ]
