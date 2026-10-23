@@ -3,5 +3,6 @@
   "name": "Adam Sandler Complete Filmography",
   "description": "Adam Sandler movie acting credits in release order, including voice roles and cameos where credited.",
   "type": "actor",
-  "actor": "Adam Sandler"
+  "actor": "Adam Sandler",
+  "person_id": 19292
 }
