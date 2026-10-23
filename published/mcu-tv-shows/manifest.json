@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.mcu.tv.shows",
+  "version": "0.1.0",
+  "name": "MCU TV Shows — Release Order",
+  "description": "Modern MCU Disney+ television series in premiere order.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "mcu-tv-shows",
+      "name": "MCU TV Shows — Release Order"
+    }
+  ]
+}

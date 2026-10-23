@@ -1,0 +1,100 @@
+{
+  "metas": [
+    {
+      "id": "tt9140560",
+      "type": "series",
+      "name": "WandaVision",
+      "poster": "https://image.tmdb.org/t/p/w500/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
+      "description": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tt9208876",
+      "type": "series",
+      "name": "The Falcon and the Winter Soldier",
+      "poster": "https://image.tmdb.org/t/p/w500/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
+      "description": "Following the events of “Avengers: Endgame”, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tt9140554",
+      "type": "series",
+      "name": "Loki",
+      "poster": "https://image.tmdb.org/t/p/w500/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+      "description": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tt10160804",
+      "type": "series",
+      "name": "Hawkeye",
+      "poster": "https://image.tmdb.org/t/p/w500/ct5pNE5dDHryHLDnxyZPYcqO1sz.jpg",
+      "description": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton’s past threatens to derail far more than the festive spirit.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tt10234724",
+      "type": "series",
+      "name": "Moon Knight",
+      "poster": "https://image.tmdb.org/t/p/w500/9K3lbMf8TKvL9xGEbzi7TggWCNQ.jpg",
+      "description": "When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt10857164",
+      "type": "series",
+      "name": "Ms. Marvel",
+      "poster": "https://image.tmdb.org/t/p/w500/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg",
+      "description": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt10857160",
+      "type": "series",
+      "name": "She-Hulk: Attorney at Law",
+      "poster": "https://image.tmdb.org/t/p/w500/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
+      "description": "Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt13157618",
+      "type": "series",
+      "name": "Secret Invasion",
+      "poster": "https://image.tmdb.org/t/p/w500/3rINdUPSy9AklJg74jWHOyUXuZd.jpg",
+      "description": "Nick Fury and Talos discover a faction of shapeshifting Skrulls who have been infiltrating Earth for years.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt15571732",
+      "type": "series",
+      "name": "Agatha All Along",
+      "poster": "https://image.tmdb.org/t/p/w500/mGsxKwXUjojitRv2E9qMTbxbBRd.jpg",
+      "description": "Agatha Harkness gathers a coven of witches and sets off down, down, down The Witches' Road.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt18923754",
+      "type": "series",
+      "name": "Daredevil: Born Again",
+      "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+      "description": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt13623126",
+      "type": "series",
+      "name": "Ironheart",
+      "poster": "https://image.tmdb.org/t/p/w500/dOh6MJpdlQhYpLBhzhNQeYGKTZ5.jpg",
+      "description": "After the events of Black Panther: Wakanda Forever, technology is pitted against magic when Riri Williams, a young, genius inventor determined to make her mark on the world, returns to her hometown of Chicago. Her unique take on building iron suits is brilliant, but in pursuit of her ambitions, she finds herself wrapped up with the mysterious yet charming Parker Robbins aka \"The Hood.\"",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt23112594",
+      "type": "series",
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
+      "description": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive.",
+      "releaseInfo": "2026"
+    }
+  ]
+}
