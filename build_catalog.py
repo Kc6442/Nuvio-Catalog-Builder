@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build a Nuvio-compatible metadata catalog from TMDB."""
-import json, os, pathlib, time, urllib.parse, urllib.request
+import json, os, pathlib, time, urllib.parse, urllib.request, difflib
 root = pathlib.Path(__file__).resolve().parent
 configs = sorted((root / "catalogs").glob("*.json"))
 if not configs:
@@ -125,33 +125,47 @@ def build(config):
         tmdb_kind = "tv" if kind == "series" else "movie"
         date_key = "first_air_date" if kind == "series" else "release_date"
         title_key = "name" if kind == "series" else "title"
-        results = tmdb("search/"+tmdb_kind,{"query":title,"first_air_date_year" if kind == "series" else "year":year}).get("results",[])
-        if not results and kind == "series":
-            results = tmdb("search/tv",{"query":title}).get("results",[])
-        matches = [m for m in results if norm(m.get(title_key,"")) == norm(title) and (m.get(date_key) or "").startswith(str(year))]
-        # TMDB can store a release under an alternate/original title.
-        if not matches:
-            original_key = "original_name" if kind == "series" else "original_title"
-            matches = [m for m in results if norm(m.get(original_key, "")) == norm(title) and (m.get(date_key) or "").startswith(str(year))]
-        if not matches and kind == "series":
-            aliases = {"VisionQuest": ["Vision Quest", "Marvel Studios' VisionQuest", "Vision"]}
-            for alt in aliases.get(title, []):
-                more = tmdb("search/tv",{"query":alt}).get("results",[])
-                matches = [m for m in more if norm(m.get("name","")) == norm(alt) and (m.get("first_air_date") or "").startswith(str(year))]
-                if matches: break
-        if not matches:
-            raise SystemExit(f"No TMDB title/year match: {title} ({year}). Check spelling, alternate title, and release year.")
-        m = matches[0]
-        external = tmdb(f"{tmdb_kind}/{m['id']}/external_ids")
-        imdb = external.get("imdb_id")
+        # Search without a year restriction as a fallback: TMDB sometimes lists
+        # a different release year or an alternate/original title.
+        results = tmdb("search/" + tmdb_kind, {
+            "query": title,
+            "first_air_date_year" if kind == "series" else "year": year,
+        }).get("results", [])
+        results += tmdb("search/" + tmdb_kind, {"query": title}).get("results", [])
+        original_key = "original_name" if kind == "series" else "original_title"
+        def match_score(item):
+            names = [item.get(title_key) or "", item.get(original_key) or ""]
+            similarity = max(difflib.SequenceMatcher(None, norm(title), norm(name)).ratio()
+                             for name in names)
+            exact = any(norm(name) == norm(title) for name in names)
+            date = str(item.get(date_key) or "")[:4]
+            year_delta = abs(int(date) - int(year)) if date.isdigit() else 999
+            # Never silently replace a requested title with an unrelated result.
+            if not exact and (similarity < 0.90 or year_delta > 1):
+                return None
+            if year_delta > 1:
+                return None
+            return (int(exact), int(year_delta == 0), similarity)
+        candidates = [(match_score(item), item) for item in results if item.get("id")]
+        candidates = [(score, item) for score, item in candidates if score is not None]
+        if not candidates:
+            raise SystemExit(
+                f"No safe TMDB match for {title!r} ({year}). "
+                "Check the title/year or supply a TMDB ID."
+            )
+        candidates.sort(key=lambda pair: pair[0], reverse=True)
+        m = candidates[0][1]
+        if len(candidates) > 1 and candidates[0][0] == candidates[1][0] and candidates[0][1]["id"] != candidates[1][1]["id"]:
+            raise SystemExit(f"Ambiguous TMDB match for {title!r} ({year}); supply a TMDB ID.")
         if not m.get("poster_path"):
             raise SystemExit(f"Missing poster: {title} ({year})")
-        identifier = imdb or ("tmdb:"+str(m["id"]) if kind == "series" else None)
-        if not identifier:
-            raise SystemExit(f"Missing ID: {title} ({year})")
+        external = tmdb(f"{tmdb_kind}/{m['id']}/external_ids")
+        imdb = external.get("imdb_id")
+        # TMDB IDs are stable identifiers when IMDb IDs are missing.
+        identifier = imdb or "tmdb:" + str(m["id"])
         metas.append({"id":identifier,"type":kind,"name":title,"poster":"https://image.tmdb.org/t/p/w500"+m["poster_path"],"description":m.get("overview",""),"releaseInfo":str(year)})
     if len({m["id"] for m in metas}) != len(metas):
-        raise SystemExit("Duplicate movies found")
+        raise SystemExit("Duplicate TMDB/IMDb IDs found in catalog")
     base = root / "published" / slug
     target = base / "catalog" / kind / (slug+".json")
     target.parent.mkdir(parents=True,exist_ok=True)
