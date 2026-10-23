@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.mcu.chronological",
+  "version": "0.1.0",
+  "name": "MCU — Chronological Order",
+  "description": "Curated MCU movie timeline; metadata-only catalog.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "mcu-chronological",
+      "name": "MCU — Chronological Order"
+    }
+  ]
+}
