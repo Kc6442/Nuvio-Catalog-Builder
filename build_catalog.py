@@ -90,3 +90,37 @@ def build(config):
     
 for config_path in configs:
     build(json.loads(config_path.read_text()))
+
+# Publish the separately installable single-row mixed test catalog.
+# The original two-row addon remains unchanged.
+mixed_source = root / "published" / "alien-vs-predator"
+if (root / "catalogs" / "alien-vs-predator.json").exists():
+    slug = "alien-vs-predator-mixed-test"
+    movies = json.loads((mixed_source / "catalog" / "movie" / "alien-vs-predator.json").read_text())["metas"]
+    shows = json.loads((mixed_source / "catalog" / "series" / "alien-vs-predator.json").read_text())["metas"]
+    names = [
+        "Alien", "Aliens", "Alien³", "Alien Resurrection", "Prometheus",
+        "Alien: Covenant", "Alien: Romulus",
+        "Alien: Isolation – The Digital Series", "Alien: Earth",
+        "Predator", "Predator 2", "Predators", "The Predator", "Prey",
+        "Predator: Killer of Killers", "Predator: Badlands",
+        "AVP: Alien vs. Predator", "Aliens vs. Predator: Requiem",
+    ]
+    all_metas = {item["name"]: item for item in movies + shows}
+    if len(all_metas) != len(names) or set(all_metas) != set(names):
+        raise SystemExit("Mixed test catalog titles do not match expected 18 entries")
+    mixed_base = root / "published" / slug
+    mixed_target = mixed_base / "catalog" / "movie" / (slug + ".json")
+    mixed_target.parent.mkdir(parents=True, exist_ok=True)
+    mixed_target.write_text(json.dumps({"metas": [all_metas[name] for name in names]}, ensure_ascii=False, indent=2) + "\\n")
+    mixed_manifest = {
+        "id": "com.kc6442.alien.vs.predator.mixed.test",
+        "version": "0.1.1",
+        "name": "Alien vs Predator MIXED TEST",
+        "description": "Experimental single movie catalog row with mixed movie and series items",
+        "resources": ["catalog"],
+        "types": ["movie"],
+        "catalogs": [{"type": "movie", "id": slug, "name": "Alien vs Predator MIXED TEST"}],
+    }
+    (mixed_base / "manifest.json").write_text(json.dumps(mixed_manifest, ensure_ascii=False, indent=2) + "\\n")
+    print("Built mixed test catalog with 18 entries")
