@@ -1,0 +1,20 @@
+{
+  "id": "com.kc6442.alien.vs.predator.mixed.test",
+  "version": "0.1.0",
+  "name": "Alien vs Predator MIXED TEST",
+  "description": "Experimental single-row mixed movie and series catalog; original addon unchanged",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "alien-vs-predator-mixed-test",
+      "name": "Alien vs Predator MIXED TEST"
+    }
+  ]
+}
