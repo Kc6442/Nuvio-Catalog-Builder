@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.zombieland",
+  "version": "0.1.0",
+  "name": "Zombieland — Release Order",
+  "description": "Zombieland movies in theatrical release order.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "zombieland",
+      "name": "Zombieland — Release Order"
+    }
+  ]
+}
