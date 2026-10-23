@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.freddy.jason.collection",
+  "version": "0.1.0",
+  "name": "Freddy & Jason Collection",
+  "description": "Friday the 13th and A Nightmare on Elm Street films, with Freddy vs. Jason as the finale.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "freddy-jason-collection",
+      "name": "Freddy & Jason Collection"
+    }
+  ]
+}

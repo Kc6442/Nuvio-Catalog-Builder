@@ -1,0 +1,164 @@
+{
+  "metas": [
+    {
+      "id": "tt0080761",
+      "type": "movie",
+      "name": "Friday the 13th",
+      "poster": "https://image.tmdb.org/t/p/w500/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+      "description": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
+      "releaseInfo": "1980"
+    },
+    {
+      "id": "tt0082418",
+      "type": "movie",
+      "name": "Friday the 13th Part 2",
+      "poster": "https://image.tmdb.org/t/p/w500/92rGctBMTv4uaSlIBVnhz01kRWL.jpg",
+      "description": "Five years after the horrible bloodbath at Camp Crystal Lake, new counselors roam the area, not sensing the ominous lurking presence that proves that the grisly legend is real.",
+      "releaseInfo": "1981"
+    },
+    {
+      "id": "tt0083972",
+      "type": "movie",
+      "name": "Friday the 13th Part III",
+      "poster": "https://image.tmdb.org/t/p/w500/9kukTSlgFgXnQGdpcHvHcpTDiUc.jpg",
+      "description": "An idyllic summer turns into a nightmare of unspeakable terror for yet another group of naïve friends. Ignoring Camp Crystal Lake's bloody legacy, one by one they fall victim to the maniacal Jason, who stalks them at every turn...",
+      "releaseInfo": "1982"
+    },
+    {
+      "id": "tt0087298",
+      "type": "movie",
+      "name": "Friday the 13th: The Final Chapter",
+      "poster": "https://image.tmdb.org/t/p/w500/1J7zudfR3VLPwAf9lK5YPfSu0n6.jpg",
+      "description": "After his revival in a hospital morgue, Jason fixes his vengeful attention on the Jarvis family and a group of hitherto carefree teenagers.",
+      "releaseInfo": "1984"
+    },
+    {
+      "id": "tt0089173",
+      "type": "movie",
+      "name": "Friday the 13th: A New Beginning",
+      "poster": "https://image.tmdb.org/t/p/w500/ewnIs4aCuWnKQ13Eaj8f3ybrQc8.jpg",
+      "description": "Homicidal maniac Jason returns from the grave to cause more bloody mayhem. Young Tommy may have escaped from Crystal Lake, but he’s still haunted by the gruesome events that happened there. When gory murders start happening at the secluded halfway house for troubled teens where he now lives, it seems like his nightmarish nemesis, Jason, is back for more sadistic slaughters.",
+      "releaseInfo": "1985"
+    },
+    {
+      "id": "tt0091080",
+      "type": "movie",
+      "name": "Jason Lives: Friday the 13th Part VI",
+      "poster": "https://image.tmdb.org/t/p/w500/6vdUpHvkspQonXBdWcLWW5ciEPJ.jpg",
+      "description": "Tommy Jarvis, tormented by the fear that maybe Jason isn't really dead, unwittingly resurrects the mass murderer for another bloody rampage.",
+      "releaseInfo": "1986"
+    },
+    {
+      "id": "tt0095179",
+      "type": "movie",
+      "name": "Friday the 13th Part VII: The New Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/rUzk9Qnyz2FZGxHMBrq6DYIQZkO.jpg",
+      "description": "Tina Shepard, a telekinetic teenage girl, accidentally unchains Jason from his watery grave, allowing him to go on another killing spree in the area.",
+      "releaseInfo": "1988"
+    },
+    {
+      "id": "tt0097388",
+      "type": "movie",
+      "name": "Friday the 13th Part VIII: Jason Takes Manhattan",
+      "poster": "https://image.tmdb.org/t/p/w500/6ezOsZ9UzqGnbDokaatxdOWP6e9.jpg",
+      "description": "Jason ships out aboard a teen-filled \"love boat\" bound for New York, which he soon transforms into the ultimate voyage of the damned.",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tt0107254",
+      "type": "movie",
+      "name": "Jason Goes to Hell: The Final Friday",
+      "poster": "https://image.tmdb.org/t/p/w500/Aacq05foqiWdXqetFv02HBvMoJy.jpg",
+      "description": "Jason Voorhees is tracked down and blown to bits by a special FBI task force, reborn with the bone-chilling ability to assume the identity of anyone he touches.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tt0211443",
+      "type": "movie",
+      "name": "Jason X",
+      "poster": "https://image.tmdb.org/t/p/w500/ggOND0hfoE0f3K857joSzEeIchb.jpg",
+      "description": "In the year 2455, Old Earth is now a contaminated planet abandoned for centuries -- a brown world of violent storms, toxic landmasses and poisonous seas. Yet humans have returned to the deadly place that they once fled, not to live, but to research the ancient, rusting artifacts of the long-gone civilizations. But it's not the harmful environment that could prove fatal to the intrepid, young explorers who have just landed on Old Earth. For them, it's Friday the 13th, and Jason lives!",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0758746",
+      "type": "movie",
+      "name": "Friday the 13th",
+      "poster": "https://image.tmdb.org/t/p/w500/88wlJ4teYlck4hJ2bnlxBrAVh0m.jpg",
+      "description": "A group of young adults visit a boarded up campsite named Crystal Lake where they soon encounter the mysterious Jason Voorhees and his deadly intentions.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tt0087800",
+      "type": "movie",
+      "name": "A Nightmare on Elm Street",
+      "poster": "https://image.tmdb.org/t/p/w500/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg",
+      "description": "Teenagers in a small town are dropping like flies, apparently in the grip of mass hysteria causing their suicides. A cop's daughter, Nancy Thompson, traces the cause to child molester Fred Krueger, who was burned alive by angry parents many years before. Krueger has now come back in the dreams of his killers' children, claiming their lives as his revenge. Nancy and her boyfriend, Glen, must devise a plan to lure the monster out of the realm of nightmares and into the real world...",
+      "releaseInfo": "1984"
+    },
+    {
+      "id": "tt0089686",
+      "type": "movie",
+      "name": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
+      "poster": "https://image.tmdb.org/t/p/w500/53kxYw0G3o55yJ23K7s7KMaOyAM.jpg",
+      "description": "A teenage boy is haunted in his dreams by deceased child murderer Freddy Krueger, who is out to possess him in order to continue his reign of terror in the real world.",
+      "releaseInfo": "1985"
+    },
+    {
+      "id": "tt0093629",
+      "type": "movie",
+      "name": "A Nightmare on Elm Street 3: Dream Warriors",
+      "poster": "https://image.tmdb.org/t/p/w500/qbtZewU6EGvxi8yFVzwZ31NijLX.jpg",
+      "description": "A psychiatrist, familiar with the knife-wielding dream demon Freddy Krueger, helps teens at a mental hospital battle the killer who is invading their dreams.",
+      "releaseInfo": "1987"
+    },
+    {
+      "id": "tt0095742",
+      "type": "movie",
+      "name": "A Nightmare on Elm Street 4: The Dream Master",
+      "poster": "https://image.tmdb.org/t/p/w500/boStYG7jKdoIZTduiOOsUVknD13.jpg",
+      "description": "Freddy Krueger returns once again to terrorize the dreams of the remaining Dream Warriors, as well as those of a young woman who may be able to defeat him for good.",
+      "releaseInfo": "1988"
+    },
+    {
+      "id": "tt0097981",
+      "type": "movie",
+      "name": "A Nightmare on Elm Street: The Dream Child",
+      "poster": "https://image.tmdb.org/t/p/w500/kizvpgXQfrAgN8FhOd87LbKk6kO.jpg",
+      "description": "The pregnant Alice finds Freddy Krueger striking through the sleeping mind of her unborn child, hoping to be reborn into the real world.",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tt0101917",
+      "type": "movie",
+      "name": "Freddy's Dead: The Final Nightmare",
+      "poster": "https://image.tmdb.org/t/p/w500/e4qh58n2WaG4Gyh9VhjOUeN9Mhv.jpg",
+      "description": "Just when you thought it was safe to sleep, Freddy Krueger returns in this sixth installment of the Nightmare on Elm Street films, as psychologist Maggie Burroughs, tormented by recurring nightmares, meets a patient with the same horrific dreams. Their quest for answers leads to a certain house on Elm Street -- where the nightmares become reality.",
+      "releaseInfo": "1991"
+    },
+    {
+      "id": "tt0111686",
+      "type": "movie",
+      "name": "Wes Craven's New Nightmare",
+      "poster": "https://image.tmdb.org/t/p/w500/q5BWxfL1x34nyYSvA3Qo5odleGW.jpg",
+      "description": "A demonic force has chosen Freddy Krueger as its portal to the real world. Can Heather Langenkamp play the part of Nancy one last time and trap the evil trying to enter our world?",
+      "releaseInfo": "1994"
+    },
+    {
+      "id": "tt1179056",
+      "type": "movie",
+      "name": "A Nightmare on Elm Street",
+      "poster": "https://image.tmdb.org/t/p/w500/nsmW28GcNabCUZfP5YtUEe8Li0f.jpg",
+      "description": "Teenagers Nancy, Quentin, Kris, Jesse and Dean are all neighborhood friends who begin having the same dream of a horribly disfigured man who wears a tattered sweater and a glove made of knives. The man terrorizes them in their dreams, and the only escape is to wake up. But when, one by one, they start dying violently, the friends realize that what happens in the dream world is real, and the only way to stay alive is to stay awake.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tt0329101",
+      "type": "movie",
+      "name": "Freddy vs. Jason",
+      "poster": "https://image.tmdb.org/t/p/w500/ffoBCQ7y63Tvo48HsJqr1XOiqiV.jpg",
+      "description": "Freddy Krueger and Jason Voorhees return to terrorize the teenagers of Elm Street. Only this time, they're out to get each other, too.",
+      "releaseInfo": "2003"
+    }
+  ]
+}
