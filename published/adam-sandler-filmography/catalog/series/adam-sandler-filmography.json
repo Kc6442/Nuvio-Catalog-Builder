@@ -1,0 +1,452 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:71494",
+      "type": "series",
+      "name": "Golden Globe Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/kwPQHGHTTgJ8x5KTQDB8F2T4dzC.jpg",
+      "description": "An annual awards ceremony recognizing excellence in film and television, both domestic and foreign, bestowed by the Hollywood Foreign Press Association.",
+      "releaseInfo": "1944"
+    },
+    {
+      "id": "tmdb:27023",
+      "type": "series",
+      "name": "The Oscars",
+      "poster": "https://image.tmdb.org/t/p/w500/wyMHJMQp8WpmBg9CxefvbQnFhrm.jpg",
+      "description": "An annual American awards ceremony honoring cinematic achievements in the film industry. The various category winners are awarded a copy of a statuette, officially the Academy Award of Merit, that is better known by its nickname Oscar.",
+      "releaseInfo": "1953"
+    },
+    {
+      "id": "tt0202179",
+      "type": "series",
+      "name": "ABC Afterschool Special",
+      "poster": "https://image.tmdb.org/t/p/w500/uOx0dDmt72hjIC5gmCzxEdn8qt0.jpg",
+      "description": "Dramatically presented situations, often controversial, of interest to children and teenagers. Several episodes were either in animated form or presented as documentaries. Topics included illiteracy, substance abuse and teenage pregnancy.",
+      "releaseInfo": "1972"
+    },
+    {
+      "id": "tt0072562",
+      "type": "series",
+      "name": "Saturday Night Live",
+      "poster": "https://image.tmdb.org/t/p/w500/s1cZBqbMwAF3w8S3Yo0j5nr2Yuo.jpg",
+      "description": "A late-night live television sketch comedy and variety show created by Lorne Michaels. The show's comedy sketches, which parody contemporary culture and politics, are performed by a large and varying cast of repertory and newer cast members. Each episode is hosted by a celebrity guest, who usually delivers an opening monologue and performs in sketches with the cast, and features performances by a musical guest.",
+      "releaseInfo": "1975"
+    },
+    {
+      "id": "tt0165001",
+      "type": "series",
+      "name": "CBS News Sunday Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/k4YOaHO6yv1MjtUPRmXbT8ASWHV.jpg",
+      "description": "The sparkling notes of a trumpet fanfare and the familiar logo of the sun alert viewers that it's time for CBS's Sunday morning staple. Journalist Jane Pauley helms the show, taking over hosting duties from Charles Osgood, who spent 22 years on the job. A morning talk show, this program airs at a different pace and focuses much of its attention on the performing arts. After a quick update of the day's news and national weather, correspondents offer longer-length segments on a variety of topics, from architecture to ballet to music to pop culture to politics.",
+      "releaseInfo": "1979"
+    },
+    {
+      "id": "tt0159881",
+      "type": "series",
+      "name": "Jeopardy!",
+      "poster": "https://image.tmdb.org/t/p/w500/11rWvQOEZBouD7wet0sWHwu7NDs.jpg",
+      "description": "America's favorite quiz show where contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in question form.",
+      "releaseInfo": "1984"
+    },
+    {
+      "id": "tt0086687",
+      "type": "series",
+      "name": "The Cosby Show",
+      "poster": "https://image.tmdb.org/t/p/w500/dc6sR5FWN4uX8fZENq2UTsrSg3x.jpg",
+      "description": "The Cosby Show is an American television situation comedy starring Bill Cosby, which aired for eight seasons on NBC from September 20, 1984 until April 30, 1992. The show focuses on the Huxtable family, an upper middle-class African-American family living in Brooklyn, New York.",
+      "releaseInfo": "1984"
+    },
+    {
+      "id": "tmdb:23521",
+      "type": "series",
+      "name": "Kids' Choice Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/aXmN5IYM0zWtfe8MD0WNMZlHjeE.jpg",
+      "description": "Honoring the year's biggest in television, film, music, and sports as voted by viewers worldwide of Nickelodeon networks. Winners receive a hollow orange blimp figurine which also functions as a kaleidoscope.",
+      "releaseInfo": "1987"
+    },
+    {
+      "id": "tmdb:23046",
+      "type": "series",
+      "name": "The Marshall Chronicles",
+      "poster": "https://image.tmdb.org/t/p/w500/gojFkT8VJPq8umcMy6pzwG2OfZi.jpg",
+      "description": "",
+      "releaseInfo": "1990"
+    },
+    {
+      "id": "tt0103569",
+      "type": "series",
+      "name": "The Tonight Show with Jay Leno",
+      "poster": "https://image.tmdb.org/t/p/w500/xAFMZ3wFIEXTISryRZD94AAvWng.jpg",
+      "description": "Jay Leno hosts some of the biggest celebrities in the world.",
+      "releaseInfo": "1992"
+    },
+    {
+      "id": "tt18376432",
+      "type": "series",
+      "name": "MTV Movie & TV Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/lPsSVqXFott193XjMpBS2qNsdWw.jpg",
+      "description": "The annual film & TV awards show presented by MTV. The nominees are decided by producers and executives at MTV with winners decided online by the general public.",
+      "releaseInfo": "1992"
+    },
+    {
+      "id": "tt0103466",
+      "type": "series",
+      "name": "The Larry Sanders Show",
+      "poster": "https://image.tmdb.org/t/p/w500/uAYwC1jnIgwjaIAhy4SE9nnRgwN.jpg",
+      "description": "Comic Garry Shandling draws upon his own talk show experiences to create the character of Larry Sanders, a paranoid, insecure host of a late night talk show. Larry, along with his obsequious TV sidekick Hank Kingsley and his fiercely protective producer Artie, allows Garry Shandling and his talented writers to look behind the scenes and to show us a convincing slice of behind the camera life.",
+      "releaseInfo": "1992"
+    },
+    {
+      "id": "tt0106052",
+      "type": "series",
+      "name": "Late Night with Conan O'Brien",
+      "poster": "https://image.tmdb.org/t/p/w500/gJZ1rhLLFpatuAeylJoUI82DKC7.jpg",
+      "description": "Stepping into the late-late slot vacated by David Letterman, Conan O'Brien stars in a show that far outdoes its competition in sheer strangeness. Along with the celebrity interviews and musical numbers typical of late-night talk shows, this program make frequent use of odd walk-on characters and frequent \"visits\" from celebrity guests.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tt0452910",
+      "type": "series",
+      "name": "Sat.1-Frühstücksfernsehen",
+      "poster": "https://image.tmdb.org/t/p/w500/x6RTSU6dZaKWAgGudifB2z3BOMI.jpg",
+      "description": "",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tt0118285",
+      "type": "series",
+      "name": "The Chris Rock Show",
+      "poster": "https://image.tmdb.org/t/p/w500/lI8tbdQ5qypQjxPNYKigwqKRDoa.jpg",
+      "description": "The Chris Rock Show is a late night comedy talk show featured on HBO. It was created by Chris Rock and featured various guests. The show won an Emmy for Outstanding Writing for a Variety or Music Program in 1999. It ran for five seasons from 1997 to 2000.",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tt0165581",
+      "type": "series",
+      "name": "The King of Queens",
+      "poster": "https://image.tmdb.org/t/p/w500/vXs300Yvjy4Kr0iHgBtajHkYbAt.jpg",
+      "description": "Life’s good for deliveryman Doug Heffernan, until his newly widowed father-in-law, Arthur, moves in with him and his wife Carrie. Doug is no longer the king of his domain, and instead of having a big screen television in his recently renovated basement, he now has a crazy old man.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:43117",
+      "type": "series",
+      "name": "Teen Choice Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/3q900BNcKbe3GHga4RVxSnoiqP4.jpg",
+      "description": "The Teen Choice Awards is a teen awards show presented annually by Fox. The first awards were held in 1999. The program honors the year's biggest achievements in music, movies, sports, television, fashion and more, as voted on by teens aged 13–19. The program features a number of celebrities and also musical performers. The winners are awarded with authentic mini size (182 cm) surfboards designed with a summertime theme. The ceremony has created spin-off teen awards on YouTube.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tt0324774",
+      "type": "series",
+      "name": "Diary",
+      "poster": "https://image.tmdb.org/t/p/w500/xWrB3sDRCAXxctWsRzLQDtPHvDx.jpg",
+      "description": "Diary is an American documentary television series that premiered February 16, 2000, on MTV.\n\nThe show's opening titles begin with the slogan \"You think you know ... but you have no idea.\"",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:227862",
+      "type": "series",
+      "name": "Anime-ban Little★Nicky: Henachoko Akuma Nicky no NY Taikenki",
+      "poster": "https://image.tmdb.org/t/p/w500/dEuIR2e1eKVvd0OUAHm97qHleFT.jpg",
+      "description": "An anime tie-in to the Adam Sandler film Little Nicky that expands slightly on the story, showing the demonic Nicky exploring New York.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0273028",
+      "type": "series",
+      "name": "Undeclared",
+      "poster": "https://image.tmdb.org/t/p/w500/cCCy0WYZvMxoz3LC2kyHX4Vy6eT.jpg",
+      "description": "College freshman Steve Karp, his girlfriend and their fellow dorm-mates embark on one the greatest experiences of their lives...unfortunately for Steve, his lonely and recently divorced father is tagging along for the ride.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0352088",
+      "type": "series",
+      "name": "Pet Star",
+      "poster": "https://image.tmdb.org/t/p/w500/zMpgsJIH0G0rAEaWQUzONCvN6Fr.jpg",
+      "description": "Pet Star was a show on Animal Planet hosted by Mario Lopez. The show is a contest between owners and their trained pets who perform tricks. The tricks are graded by three celebrity judges on a scale of one to 10. In the end, the three pets with the highest score come out as finalists, and the audience votes on who is the episode's Pet Star. Then, at the end of the season, the winners compete to be the year's ULTIMATE PET STAR. The winner of a regular show gets $2,500, while the winner of the finals gets $25,000.\n\nThere were many celebrity judges, including Gena Lee Nolin, Virginia Madsen, Will Estes, Lindsay Wagner, Matt Gallant, Mackenzie Phillips, Billy West, James Avery, George Wallace, Melissa Peterman, Christopher Rich, John O'Hurley, Vanessa Lengies, Dom Irrera, Carol Leifer, Andy Kindler, Melissa Rivers, Meshach Taylor, Kaley Cuoco, Rosa Blasi, Jeff Cesario, Karri Turner, Peter Scolari, Bruce Jenner, Fred Willard, Shari Belafonte, Josh Meyers, Lori Petty, Ben Stein, Richard Jeni, Ken Howard, Paul Gilmartin, Maria Menounos, Tempestt Bledsoe, David Brenner and Amy Davidson.\n\nPet Star is based on the show Star Search. It is shown in the United Kingdom on Challenge.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tt0320037",
+      "type": "series",
+      "name": "Jimmy Kimmel Live!",
+      "poster": "https://image.tmdb.org/t/p/w500/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+      "description": "Jimmy Kimmel Live! is an American late-night talk show, created and hosted by Jimmy Kimmel and broadcast on ABC.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tt0379623",
+      "type": "series",
+      "name": "The Ellen DeGeneres Show",
+      "poster": "https://image.tmdb.org/t/p/w500/PhUYIGUUk1RzWq2Aw3TqH65McE.jpg",
+      "description": "The Ellen DeGeneres Show, often shortened to just Ellen, is an American television talk show hosted by comedian/actress Ellen DeGeneres.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tt0397182",
+      "type": "series",
+      "name": "On Air with Ryan Seacrest",
+      "poster": "https://image.tmdb.org/t/p/w500/c2ioh1Bgk8l2GJSOUvq0OEi03pT.jpg",
+      "description": "On Air with Ryan Seacrest is an American syndicated television talk show, which ran from January 12, 2004 through September 17, 2004. It was distributed in the United States and Canada by Twentieth Television.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tt0472023",
+      "type": "series",
+      "name": "So You Think You Can Dance",
+      "poster": "https://image.tmdb.org/t/p/w500/e4JAJ3UGBmAshXQG69uH9AgnZkp.jpg",
+      "description": "Dancers selected in open auditions across America take part in a rigorous competition designed to best display their talents, training and personalities to a panel of judges and viewers as they strive to win votes and avoid elimination.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tt0466622",
+      "type": "series",
+      "name": "The Showbiz Show with David Spade",
+      "poster": "https://image.tmdb.org/t/p/w500/obGUgMILzJvp51wMKv2XziRoKa2.jpg",
+      "description": "The Showbiz Show with David Spade was a weekly television program on Comedy Central that starred comedian David Spade. It is a comedic parody of celebrity news programs such as Entertainment Tonight and Access Hollywood. The show was developed from David Spade's Hollywood Minute segment on Saturday Night Live.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tt0911896",
+      "type": "series",
+      "name": "Made in Hollywood",
+      "poster": "https://image.tmdb.org/t/p/w500/6qmnydngb6MWvrTAe09x61SiXcC.jpg",
+      "description": "Made in Hollywood is a talk show hosted by Kylie Erica Mar and Julie L. Harkness airing in syndication since September 30, 2005. The series is currently in its seventh season. The series is filmed in two studios in Los Angeles, California and New York City. Made in Hollywood also airs a spinoff series, Made in Hollywood: Teen Edition.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tt0780409",
+      "type": "series",
+      "name": "The Reichen Show",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "A list of celebrity interviews and sensational topics.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tt0815251",
+      "type": "series",
+      "name": "VH1 Rock Honors",
+      "poster": "https://image.tmdb.org/t/p/w500/sXhQ1Txys2qS18rfp4sRalPfBk1.jpg",
+      "description": "The VH1 Rock Honors were an annual ceremony paying homage to bands who influenced the sound of rock music. The events began in 2006, and the final event took place in 2008. The general format of each show is for modern bands to \"pay tribute\" to classic greats of the rock/metal world, after which time the artist being paid tribute to plays multiple songs. The 2006 and 2007 shows featured four inductees each, whereas the 2008 show featured one, albeit with multiple bands paying tribute. The shows were directed by David Mallet and produced by Paul Flattery. Currently, VH1 has no plans for a CD or DVD release of any show.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt0844203",
+      "type": "series",
+      "name": "The One Show",
+      "poster": "https://image.tmdb.org/t/p/w500/7QpzCej3Lwrsnx5A8FePYsUCIzf.jpg",
+      "description": "A topical magazine-style daily television programme broadcast live on BBC One.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt0870872",
+      "type": "series",
+      "name": "El hormiguero",
+      "poster": "https://image.tmdb.org/t/p/w500/b24KGOkBrKgM6Blr4rw0jdn3zw5.jpg",
+      "description": "El Hormiguero is a Spanish television program with a live audience focusing on comedy, science, and politics running since September 2006. It is hosted and produced by screenwriter Pablo Motos. The show aired on Spain's Cuatro channel from launch until June 2011 and is now broadcast on Antena 3. Recurring guests on the show include Luis Piedrahita, Raquel Martos, Marron & \"The Man in Black\", and puppet ants Trancas and Barrancas. It has proved a ratings success, and has expanded from a weekly 120-minute show to a daily 40-minute show in its third season, which began on September 17, 2007. The show won the Entertainment prize at the 2009 Rose d'Or ceremony.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt0790772",
+      "type": "series",
+      "name": "Rules of Engagement",
+      "poster": "https://image.tmdb.org/t/p/w500/tRma9RQCgwLXqkDrCPyrQwsazuJ.jpg",
+      "description": "Rules of Engagement is a comedy about the different phases of male/female relationships, as seen through the eyes of a newly engaged couple, Adam and Jennifer, a long-time married pair, Jeff and Audrey, and a single guy on the prowl, Russell. As they find out, the often confusing stages of a relationship can seem like being on a roller coaster. People can describe the ride to you, but to really know what it's like you have to experience it for yourself.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tt0924651",
+      "type": "series",
+      "name": "The Graham Norton Show",
+      "poster": "https://image.tmdb.org/t/p/w500/vrbqaBXB8AALynQzpWz6JdCPEJS.jpg",
+      "description": "Each week celebrity guests join Irish comedian Graham Norton to discuss what's being going on around the world that week. The guests poke fun and share their opinions on the main news stories. Graham is often joined by a band or artist to play the show out.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tt1020913",
+      "type": "series",
+      "name": "Diners, Drive-Ins and Dives",
+      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
+      "description": "Host Guy Fieri takes a cross-country road trip to visit some of America's classic \"greasy spoon\" restaurants — diners, drive-ins and dives — that have been doing it right for decades.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:19146",
+      "type": "series",
+      "name": "It's On with Alexa Chung",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "It's On with Alexa Chung was an American live interactive talk and variety program that aired weekdays on MTV from June 15 to December 17, 2009. The show, a \"successor\" to MTV's Total Request Live, was hosted by British model-turned-television personality Alexa Chung.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tt2190581",
+      "type": "series",
+      "name": "C à vous",
+      "poster": "https://image.tmdb.org/t/p/w500/mWUZ9Gb3qCiOusMtn2AC9uWez5C.jpg",
+      "description": "Every day live on FRANCE 5, Anne-Élisabeth Lemoine and her team receive those who make the news. In the second part, the program welcomes, around a meal prepared by a qualified chef, artists in promotion.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tt1637574",
+      "type": "series",
+      "name": "Conan",
+      "poster": "https://image.tmdb.org/t/p/w500/oQxrvUhP3ycwnlxIrIMQ9Z3kleq.jpg",
+      "description": "A late night television talk show hosted by  Conan O'Brien.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tt1630574",
+      "type": "series",
+      "name": "Breaking In",
+      "poster": "https://image.tmdb.org/t/p/w500/cDEglbhl4g6yFg203agZAOm8m3b.jpg",
+      "description": "Contra Security is a high tech security firm that specializes in breaking in as a way to test security measures. The team members comprise various skills, and even more various personalities.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt2049323",
+      "type": "series",
+      "name": "The Jonathan Ross Show",
+      "poster": "https://image.tmdb.org/t/p/w500/zglUOb3r2C867Rk6qhnmAn2kOSq.jpg",
+      "description": "The Jonathan Ross Show is a British chat show presented by Jonathan Ross. It was first broadcast on ITV on 3 September 2011 and currently airs on Saturday evenings following the conclusion of Ross' BBC One chat show, Friday Night with Jonathan Ross, in July 2010.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt1865769",
+      "type": "series",
+      "name": "Jessie",
+      "poster": "https://image.tmdb.org/t/p/w500/tspQe0FuiaUj0U1R1norNbiYTe4.jpg",
+      "description": "An idealistic teen from rural Texas embarks on the adventure of a lifetime when she decides to leave behind starry nights for big city lights. Thrilled to be on her own and determined not to be intimidated by New York City, she accepts a job as nanny for a high-profile couple with four kids. Helping to keep her moral compass in check are Bertram, the family's butler, and Tony, the building's 20-year-old doorman.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt6407712",
+      "type": "series",
+      "name": "Norm Macdonald Live",
+      "poster": "https://image.tmdb.org/t/p/w500/d8L9BlALpMQey9jZDwNhNdhS66F.jpg",
+      "description": "Norm Macdonald Live is a weekly talk show hosted by Norm Macdonald and co-host Adam Eget. The show features interviews with comedians, actors, and other members of the entertainment community.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tt2467372",
+      "type": "series",
+      "name": "Brooklyn Nine-Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/mpjlDzVjp7oyHUe2LaF9ltKe6f1.jpg",
+      "description": "A single-camera ensemble comedy following the lives of an eclectic group of detectives in a New York precinct, including one slacker who is forced to shape up when he gets a new boss.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tt3444938",
+      "type": "series",
+      "name": "The Tonight Show Starring Jimmy Fallon",
+      "poster": "https://image.tmdb.org/t/p/w500/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
+      "description": "After Jay Leno's second retirement from the program, Jimmy Fallon stepped in as his permanent replacement. After 42 years in Los Angeles the program was brought back to New York.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt3513388",
+      "type": "series",
+      "name": "Late Night with Seth Meyers",
+      "poster": "https://image.tmdb.org/t/p/w500/u0ttHM5ZQCvnfL0lkueEgS4h2nI.jpg",
+      "description": "Seth Meyers, who is \"Saturday Night Live's\" longest serving anchor on the show's wildly popular \"Weekend Update,\" takes over as host of NBC's \"Late Night\" — home to A-list celebrity guests, memorable comedy and the best in musical talent. As the Emmy Award-winning head writer for \"SNL,\" Meyers has established a reputation for sharp wit and perfectly timed comedy, and has gained fame for his spot-on jokes and satire. Meyers takes his departure from \"SNL\" to his new post at \"Late Night,\" as Jimmy Fallon moves to \"The Tonight Show\".",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt4267324",
+      "type": "series",
+      "name": "Variety Studio: Actors on Actors",
+      "poster": "https://image.tmdb.org/t/p/w500/pgWZXYG0gTKkwRH9pTxoscFmq4H.jpg",
+      "description": "PBS SoCal and Variety take you inside the biggest movies and TV shows of the past year through candid conversations with today's hottest actors. Hosted by Variety Film Awards Editor Clayton Davis and Variety Chief Correspondent Elizabeth Wagmeister, each episode brings together pairs of actors engaging in intimate one-on-one discussions about their craft and work.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt4931888",
+      "type": "series",
+      "name": "Close Up with The Hollywood Reporter",
+      "poster": "https://image.tmdb.org/t/p/w500/h7X59O3T4VWVAUzZ00LEpbwA3GP.jpg",
+      "description": "Some of this year's most talked about talent open up about the challenges and triumphs of creating critically acclaimed series and performances.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt3697842",
+      "type": "series",
+      "name": "The Late Show with Stephen Colbert",
+      "poster": "https://image.tmdb.org/t/p/w500/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg",
+      "description": "Stephen Colbert brings his signature satire and comedy to The Late Show with Stephen Colbert, the #1 show in late night, where he talks with an eclectic mix of guests about what is new and relevant in the worlds of politics, entertainment, business, music, technology, and more. Featuring bandleader Jon Batiste with his band Stay Human, the Emmy Award-nominated show is broadcast from the historic Ed Sullivan Theater.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt5462720",
+      "type": "series",
+      "name": "Kevin Can Wait",
+      "poster": "https://image.tmdb.org/t/p/w500/rpuNe29T0ZnBhw7nHpDDgimfObe.jpg",
+      "description": "A newly retired police officer looks forward to spending more quality time with his wife and three kids only to discover he faces much tougher challenges at home than he ever did on the streets.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tt12597800",
+      "type": "series",
+      "name": "Home Movie: The Princess Bride",
+      "poster": "https://image.tmdb.org/t/p/w500/v2cyF2PZB2GQBP4fzGG57Xg0r3w.jpg",
+      "description": "Serialized remake of 'The Princess Bride' told in short chapters featuring celebrities at home during quarantine.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt10827252",
+      "type": "series",
+      "name": "The Drew Barrymore Show",
+      "poster": "https://image.tmdb.org/t/p/w500/16vn1F0NwvajaZjR2jmJnKnv2Gq.jpg",
+      "description": "Drew Barrymore presents human-interest stories, celebrity guests, lifestyle segments and field pieces, all driven by her infectious brand of humor and optimism.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt15847104",
+      "type": "series",
+      "name": "The Jennifer Hudson Show",
+      "poster": "https://image.tmdb.org/t/p/w500/teDTavUpqEm2SCyBDvPbLqlW2wB.jpg",
+      "description": "Talented entertainer and newly-minted EGOT Jennifer Hudson takes on the daytime talk show landscape.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt22777878",
+      "type": "series",
+      "name": "BIANCA",
+      "poster": "https://image.tmdb.org/t/p/w500/yB2hy0AHd571ED2G6rI9kZ3Csvr.jpg",
+      "description": "Unfiltered and unexpected when Bianca Ingrosso invites Swedish and international stars to Sweden's new big talk show - BIANCA.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:277701",
+      "type": "series",
+      "name": "Stand-Up: The Laughing Therapy",
+      "poster": "https://image.tmdb.org/t/p/w500/zAEtmdveZhAXGG5v6UsWk4Tg2EK.jpg",
+      "description": "Born over a century ago in the United States, stand-up comedy has conquered the world, spreading via the internet to screens everywhere. By channeling its satirical rage into new territories, it has captured the pulse of society, reflecting contemporary debates. Stand-up, as told by the professionals of the punchline: Blanche Gardin, Haroun, Hannah Gadsby, and many others.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt35630627",
+      "type": "series",
+      "name": "Everybody's Live with John Mulaney",
+      "poster": "https://image.tmdb.org/t/p/w500/c9hRxGJh6FjArAEpHnfk2IMkRkC.jpg",
+      "description": "John Mulaney conducts the first-ever celebrity sit-down talk show. Live every week.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:307864",
+      "type": "series",
+      "name": "Variety & CNN Actors on Actors",
+      "poster": "https://image.tmdb.org/t/p/w500/iBX3ZA6bey1PLIekfdJN2gVqYEo.jpg",
+      "description": "Critically acclaimed performers are paired in candid, unscripted conversations about their craft.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt33035435",
+      "type": "series",
+      "name": "Mel Brooks: The 99 Year Old Man!",
+      "poster": "https://image.tmdb.org/t/p/w500/htSwFYOyepCbLUUuyCtvC0uCQ3b.jpg",
+      "description": "Directors Judd Apatow and Michael Bonfiglio explore the life and legacy of Mel Brooks, one of the most enduring comedic voices of our time.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

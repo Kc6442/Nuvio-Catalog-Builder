@@ -201,11 +201,27 @@
       "releaseInfo": "2000"
     },
     {
+      "id": "tt0306044",
+      "type": "movie",
+      "name": "Satan’s Top 40",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "Documentary produced for the \"Little Nicky\" DVD about heavy metal and the Devil featuring rock stars Gene Simmons, Ronnie James Dio, and Ozzy Osborne.",
+      "releaseInfo": "2001"
+    },
+    {
       "id": "tt0305751",
       "type": "movie",
       "name": "Laughing Out Loud: America's Funniest Comedians",
       "poster": "https://image.tmdb.org/t/p/w500/rQG3yAe4qzewDFZsXz6HjYCw65h.jpg",
       "description": "This set gives you a chance to see some of today's best comedians when they were much younger. some peoples bits are very short, one joke short, which leaves you feeling a little jipped. The replay value is minimal because you have to skip around so much to keep the laughs going.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tt0245686",
+      "type": "movie",
+      "name": "Joe Dirt",
+      "poster": "https://image.tmdb.org/t/p/w500/yykDEtHk6DMtZK8EaxW88YyQ054.jpg",
+      "description": "Joe Dirt is a janitor with a mullet hairdo, acid-washed jeans and a dream to find the parents that he lost at the Grand Canyon when he was a belligerent, trailer park-raised eight-year-old. Now, blasting Van Halen in his jacked-up economy car, the irrepressibly optimistic Joe hits the road alone in search of his folks.",
       "releaseInfo": "2001"
     },
     {
@@ -265,6 +281,14 @@
       "releaseInfo": "2002"
     },
     {
+      "id": "tt0295427",
+      "type": "movie",
+      "name": "The Master of Disguise",
+      "poster": "https://image.tmdb.org/t/p/w500/JFKuKJeHHFFVb0ubpkPIXmkIOg.jpg",
+      "description": "After the patriarch of the Disguisey family is kidnapped by Devlin Bowman in an attempt to steal the most precious treasures from around the world, Italian waiter Pistachio Disguisey utilizes his supernatural ability to disguise himself in an attempt to stop him.",
+      "releaseInfo": "2002"
+    },
+    {
       "id": "tt0272338",
       "type": "movie",
       "name": "Punch-Drunk Love",
@@ -321,6 +345,22 @@
       "releaseInfo": "2003"
     },
     {
+      "id": "tt7359992",
+      "type": "movie",
+      "name": "12 Scopitones",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "12 artwork transitions by Jeremy Blake for the film Punch-Drunk Love (2002).",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tt0325258",
+      "type": "movie",
+      "name": "Dickie Roberts: Former Child Star",
+      "poster": "https://image.tmdb.org/t/p/w500/eyn1WbZmUUIXU8QoorKWJTQ1iLg.jpg",
+      "description": "TV child star of the '70s, Dickie Roberts is now 35 and parking cars. Craving to regain the spotlight, he auditions for a role of a normal guy, but the director quickly sees he is anything but normal. Desperate to win the part, Dickie hires a family to help him replay his childhood and assume the identity of an average, everyday loser.",
+      "releaseInfo": "2003"
+    },
+    {
       "id": "tt0500100",
       "type": "movie",
       "name": "Saturday Night Live: The Best of Chris Farley",
@@ -369,11 +409,27 @@
       "releaseInfo": "2005"
     },
     {
+      "id": "tt0456554",
+      "type": "movie",
+      "name": "Grandma's Boy",
+      "poster": "https://image.tmdb.org/t/p/w500/fSRdHBtisU0zhks4OjKezI3jnt7.jpg",
+      "description": "Even though he's 35, Alex acts more like he's 13, spending his days as the world's oldest video game tester and his evenings developing the next big Xbox game. But when he gets kicked out of his apartment, he's forced to move in with his grandmother.",
+      "releaseInfo": "2006"
+    },
+    {
       "id": "tt0462518",
       "type": "movie",
       "name": "Saturday Night Live: The Best of Alec Baldwin",
       "poster": "https://image.tmdb.org/t/p/w500/aQ58zwfjAkphuXhl723pA5c2UnG.jpg",
       "description": "Whether he's playing a Scout Master seducing \"Canteen Boy\", a French teacher annoying his students, a Tough Guy or just talking about his famous \"Schwetty Balls\", Alec Baldwin is undoubtedly one of the funniest SNL hosts of all time. He's become a regular, playing in sketches throughout the years with some of the SNL greats including Phil Hartman, Chris Farley, Mike Meyers, Adam Sandler and Will Ferrell. You're sure to enjoy some of Alec's hilarious celebrity impressions, such as Tony Bennett and Charles Nelson Reilly.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tt0437863",
+      "type": "movie",
+      "name": "The Benchwarmers",
+      "poster": "https://image.tmdb.org/t/p/w500/5yMPCr4qhuNg6fT538xicHaMaG7.jpg",
+      "description": "A trio of guys try and make up for missed opportunities in childhood by forming a three-player baseball team to compete against standard little league squads.",
       "releaseInfo": "2006"
     },
     {
@@ -417,12 +473,28 @@
       "releaseInfo": "2007"
     },
     {
+      "id": "tmdb:75740",
+      "type": "movie",
+      "name": "Comedy Club Greats",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "A hilarious stand-up showcase of some of comedy's all-time greats including Jerry Seinfeld, Adam Sandler, Dave Attell and many more! Watch these comic headliners perform their original material on stage from the best seat in the house.",
+      "releaseInfo": "2007"
+    },
+    {
       "id": "tt0762107",
       "type": "movie",
       "name": "I Now Pronounce You Chuck & Larry",
       "poster": "https://image.tmdb.org/t/p/w500/vF0yEaGyXYsHWRTMmeJaJKp43bj.jpg",
       "description": "Firefighters Chuck Ford and Larry Valentine are guy's guys, loyal to the core—which is why when widower Larry asks Chuck to pose as his lover so that he can get domestic partner benefits for his kids, his buddy agrees. However, things get dicey when a bureaucrat comes calling, and the boys are forced to present a picture of domestic bliss.",
       "releaseInfo": "2007"
+    },
+    {
+      "id": "tt0489282",
+      "type": "movie",
+      "name": "Strange Wilderness",
+      "poster": "https://image.tmdb.org/t/p/w500/6tamhOw4dSgn4lonjZyhEhIt9Wm.jpg",
+      "description": "With the ratings dropping for a wilderness-themed TV show, two animal fans go to the Andes in search of Bigfoot.",
+      "releaseInfo": "2008"
     },
     {
       "id": "tt0960144",
@@ -441,12 +513,36 @@
       "releaseInfo": "2008"
     },
     {
+      "id": "tt0852713",
+      "type": "movie",
+      "name": "The House Bunny",
+      "poster": "https://image.tmdb.org/t/p/w500/4oGGJ824vqIqDtyMvMuK44pDEmx.jpg",
+      "description": "Shelley is living a carefree life until a rival gets her tossed out of the Playboy Mansion. With nowhere to go, fate delivers her to the sorority girls from Zeta Alpha Zeta. Unless they can sign a new pledge class, the seven socially clueless women will lose their house to the scheming girls of Phi Iota Mu. In order to accomplish their goal, they need Shelley to teach them the ways of makeup and men; at the same time, Shelley needs some of what the Zetas have - a sense of individuality. The combination leads all the girls to learn how to stop pretending and start being themselves.",
+      "releaseInfo": "2008"
+    },
+    {
       "id": "tt0960731",
       "type": "movie",
       "name": "Bedtime Stories",
       "poster": "https://image.tmdb.org/t/p/w500/rSOnWm8ahvgThYp8TKGRUTcvsyw.jpg",
       "description": "Skeeter Bronson is a down-on-his-luck guy who's always telling bedtime stories to his niece and nephew. But his life is turned upside down when the fantastical stories he makes up for entertainment inexplicably turn into reality. Can a bewildered Skeeter manage his own unruly fantasies now that the outrageous characters and situations from his mind have morphed into actual people and events?",
       "releaseInfo": "2008"
+    },
+    {
+      "id": "tt1114740",
+      "type": "movie",
+      "name": "Paul Blart: Mall Cop",
+      "poster": "https://image.tmdb.org/t/p/w500/A4zZv0Q1VKURFZFEl2vwjaE2q0g.jpg",
+      "description": "When a shopping mall is taken over by a gang of organized crooks, it's up to a mild-mannered security guard to save the day.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tt1243955",
+      "type": "movie",
+      "name": "The Shortcut",
+      "poster": "https://image.tmdb.org/t/p/w500/wAW0WNevBmmyaN8m1QkQkWyZGW7.jpg",
+      "description": "When Derek moves to a new town and discovers a shortcut through the woods to his high school, he learns about a crazy old man who lives near its path: Legend has it that he abducted a group of teenagers years ago. Ignoring the warning, Derek and his friends set out to uncover the dark secret that's buried deep in the woods. But will they survive to tell it?",
+      "releaseInfo": "2009"
     },
     {
       "id": "tmdb:683184",
@@ -494,6 +590,22 @@
       "name": "Zookeeper",
       "poster": "https://image.tmdb.org/t/p/w500/y3b4AYw8dr4hIKTfEAjxUxx0z8G.jpg",
       "description": "Kindhearted Griffin Keyes is one of the best-loved caretakers at the Franklin Park Zoo, but he's more comfortable with the animals than with females of his own species as proven by his failed marriage proposal to the self-absorbed Stephanie several years ago. The animals have listened to Griffin pine over her for years and, after she reappears in his life, they decide to help Griffin rekindle the relationship and become the alpha male she wants him to be. They inadvertently reveal their secret ability to talk and, after Griffin's initial shock, teach him the rules of courtship, animal-style. Surprisingly, the animals' advice really works and Griffin is about to get everything he's ever dreamed of--or is he?",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt1411664",
+      "type": "movie",
+      "name": "Bucky Larson: Born to Be a Star",
+      "poster": "https://image.tmdb.org/t/p/w500/avCsg52549PHT5nVXIW7c3BEZ7b.jpg",
+      "description": "A kid from the Midwest moves out to Hollywood in order to follow in his parents footsteps -- and become a porn star.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tt2396046",
+      "type": "movie",
+      "name": "Der Weg des Ruhms - Hollywoods Walk of Fame",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "Documentary about Hollywood.",
       "releaseInfo": "2011"
     },
     {
@@ -550,6 +662,14 @@
       "name": "Grown Ups 2",
       "poster": "https://image.tmdb.org/t/p/w500/hT6ijOtjtYrnyDhN7VA2QWyGFAm.jpg",
       "description": "Lenny has relocated his family back to the small town where he and his friends grew up. This time around, the grown ups are the ones learning lessons from their kids on a day notoriously full of surprises—the last day of school.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tt2734818",
+      "type": "movie",
+      "name": "Rob Schneider: Soy Sauce and the Holocaust",
+      "poster": "https://image.tmdb.org/t/p/w500/if25BUDZdAb545FZcrocsHUJPAW.jpg",
+      "description": "\"SNL\" alum Rob Schneider takes to the stage (as himself) to examine the bizarre nature of fame, the woes of aging and the virtue of sweatpants. Known for his off-the-wall characters, Schneider opens up about his own life, which can be equally zany.",
       "releaseInfo": "2013"
     },
     {
@@ -614,6 +734,14 @@
       "name": "An SNL Valentine",
       "poster": "https://image.tmdb.org/t/p/w500/yPL0zAwVlGEl4KVSDyzj3gG487w.jpg",
       "description": "An SNL Valentine is a primetime special that features a variety of Saturday Night Live sketches, themed towards Valentine's Day.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tt3450650",
+      "type": "movie",
+      "name": "Paul Blart: Mall Cop 2",
+      "poster": "https://image.tmdb.org/t/p/w500/qML63w7vgspicwLK6xXGLK17cM0.jpg",
+      "description": "Security guard Paul Blart is headed to Las Vegas to attend a Security Guard Expo with his teenage daughter Maya before she departs for college. While at the convention, he inadvertently discovers a heist - and it's up to Blart to apprehend the criminals.",
       "releaseInfo": "2015"
     },
     {
@@ -769,11 +897,27 @@
       "releaseInfo": "2020"
     },
     {
+      "id": "tt9619798",
+      "type": "movie",
+      "name": "The Wrong Missy",
+      "poster": "https://image.tmdb.org/t/p/w500/A2YlIrzypvhS3vTFMcDkG3xLvac.jpg",
+      "description": "A guy meets the woman of his dreams and invites her to his company's corporate retreat, but realizes he sent the invite to the wrong person.",
+      "releaseInfo": "2020"
+    },
+    {
       "id": "tt12792672",
       "type": "movie",
       "name": "Adam Sandler: Funny Guy",
       "poster": "https://image.tmdb.org/t/p/w500/lvsZutmPY7NcVTRQrwqpi1Nm3q6.jpg",
       "description": "Adam remains a consistent favorite among fans who are comforted that they will always have a good time. Get the inside story on this fascinating actor, comedian, screenwriter, producer, husband, father, and forever FUNNY GUY.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tt13225678",
+      "type": "movie",
+      "name": "Nature Planet | Narrated by Adam Sandler",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "Sir Adam Sandler narrates Nature Planet. An epic look into the endangered species, The Silver-Breasted Montle, as they battle back from the brink of extinction",
       "releaseInfo": "2020"
     },
     {
@@ -791,6 +935,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/sgncJ84O2hK80mNfXaO3f2NsehX.jpg",
       "description": "Follow Kevin Garnett's remarkable career and the pivotal moments that defined it.",
       "releaseInfo": "2021"
+    },
+    {
+      "id": "tt14592064",
+      "type": "movie",
+      "name": "Home Team",
+      "poster": "https://image.tmdb.org/t/p/w500/zTwfMV1hm1DIrMo8BGyZKskhSPr.jpg",
+      "description": "Two years after a Super Bowl win when NFL head coach Sean Payton is suspended, he goes back to his hometown and finds himself reconnecting with his 12-year-old son by coaching his Pop Warner football team.",
+      "releaseInfo": "2022"
     },
     {
       "id": "tt19433494",
@@ -825,11 +977,27 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tmdb:1095351",
+      "type": "movie",
+      "name": "Chris Rock: Road To Live Special",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "Chris Rock gives an exclusive look at his year on tour leading up to this historic night. With appearances from Dave Chappelle, Adam Sandler, Kevin Hart, and many more.",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tt15255288",
       "type": "movie",
       "name": "Murder Mystery 2",
       "poster": "https://image.tmdb.org/t/p/w500/s1VzVhXlqsevi8zeCMG9A16nEUf.jpg",
       "description": "After starting their own detective agency, Nick and Audrey Spitz land a career-making case when their billionaire pal is kidnapped from his wedding.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt11274492",
+      "type": "movie",
+      "name": "The Out-Laws",
+      "poster": "https://image.tmdb.org/t/p/w500/5dliMQ2ODbGNoq0hlefdnuXQxMw.jpg",
+      "description": "A straight-laced bank manager is about to marry the love of his life. When his bank is held up by infamous Ghost Bandits during his wedding week, he believes his future in-laws who just arrived in town, are the infamous Out-Laws.",
       "releaseInfo": "2023"
     },
     {
@@ -873,11 +1041,27 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tt3575156",
+      "type": "movie",
+      "name": "Madha Gaja Raja",
+      "poster": "https://image.tmdb.org/t/p/w500/hrOnr0eIdBI2Zpeh4EMLmWe58XA.jpg",
+      "description": "Raja, a witty and fearless young man, becomes entangled in a conflict with a corrupt industrialist while trying to protect his family, friends and the woman he loves.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tt35076584",
       "type": "movie",
       "name": "Ladies & Gentlemen... 50 Years of SNL Music",
       "poster": "https://image.tmdb.org/t/p/w500/wiIfy2MXau1VPdi6z0Z0oYYT7ne.jpg",
       "description": "Untold stories behind the culture-defining and newsmaking musical performances, sketches and cameos of the past 50 years.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt30253036",
+      "type": "movie",
+      "name": "Kinda Pregnant",
+      "poster": "https://image.tmdb.org/t/p/w500/k2Lq3rCJ7P9gk5Df9of9kqr9IJM.jpg",
+      "description": "When Lainy's plan to settle down and start a family falls apart, she puts on a fake baby bump, tells a lie — and accidentally falls for her dream guy.",
       "releaseInfo": "2025"
     },
     {
@@ -921,6 +1105,14 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tt35519464",
+      "type": "movie",
+      "name": "Bunny",
+      "poster": "https://image.tmdb.org/t/p/w500/gFPGHCC7yJrtoL6C3jlcXhutq3y.jpg",
+      "description": "Two best friends rally the neighbors in their tenement building to help them hide a dead body over the best/worst night of their lives.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tt30446847",
       "type": "movie",
       "name": "Jay Kelly",
@@ -945,11 +1137,43 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tt38556681",
+      "type": "movie",
+      "name": "Sarah Squirm: Live + in the Flesh",
+      "poster": "https://image.tmdb.org/t/p/w500/73wbpsAR1OK0faQCNXYHA37rAld.jpg",
+      "description": "After four seasons (and counting) on Saturday Night Live, Sarah Sherman's unholy alter ego, Sarah Squirm, slithers onto your screen and rips off the straitjacket, unleashing a festering and hilarious hour of bodily fluids, open-wound confessionals, and jokes that will leave scars on your soul.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt32916440",
+      "type": "movie",
+      "name": "Marty Supreme",
+      "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+      "description": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt37540875",
+      "type": "movie",
+      "name": "Roommates",
+      "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
+      "description": "When shy college freshman Devon asks cool-girl Celeste to be her roommate, a blossoming friendship quickly spirals into a war of passive aggression.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tt39847629",
       "type": "movie",
       "name": "Lorne",
       "poster": "https://image.tmdb.org/t/p/w500/3n3mGGQI1HkmzUlcPubMZ9QvcJA.jpg",
       "description": "An unprecedented, behind-the-scenes glimpse at the man who built the inimitable empire of comedy, shaping television and culture for generations. The documentary features exclusive footage, archival treasures, and candid interviews with the show’s most iconic cast members and writers including Tina Fey, Maya Rudolph, John Mulaney, Andy Samberg, Conan O’Brien, Chris Rock and many more.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt36590417",
+      "type": "movie",
+      "name": "Don't Say Good Luck",
+      "poster": "https://image.tmdb.org/t/p/w500/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
+      "description": "Sophie Birenbaum is ready for the spotlight as the lead in her high school musical—until she's suddenly facing more drama at home than on the stage.",
       "releaseInfo": "2026"
     },
     {
@@ -967,6 +1191,54 @@
       "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
       "description": "Go down a wormhole in this documentary on master of deadpan humor Norm Macdonald, whose life and career were uncompromising yet full of contradictions.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tt42653231",
+      "type": "movie",
+      "name": "Grown Ups 3",
+      "poster": "https://image.tmdb.org/t/p/w500/sb4kJhQNKurpzr7uN2l07SZfzRt.jpg",
+      "description": "The group & their respective partners travel to Europe to spread their close friend's ashes & prove that they can still be fun — even in their 60s.",
+      "releaseInfo": "Unknown"
+    },
+    {
+      "id": "tt31066554",
+      "type": "movie",
+      "name": "Leo 2",
+      "poster": "https://image.tmdb.org/t/p/w500/5vSpZv6iXEZAX8hAxDA51DrPQnq.jpg",
+      "description": "Adam Sandler's animated comedy movie Leo will receive a sequel, as Netflix's Ted Sarandos has confirmed ideas are being hashed out now.",
+      "releaseInfo": "Unknown"
+    },
+    {
+      "id": "tmdb:1386432",
+      "type": "movie",
+      "name": "Saturday Night Live: The Best of Adam Sandler",
+      "poster": "https://image.tmdb.org/t/p/w500/oHJcDyNDNQpfuZJtC81RVIkz6ND.jpg",
+      "description": "Comic Adam Sandler's Saturday Night Live moments as Canteen Boy, Cajun Man, Opera Man, and much more, including hilarious songs like the Hanukkah song and the Christmas song, are shown.",
+      "releaseInfo": "Unknown"
+    },
+    {
+      "id": "tmdb:1500192",
+      "type": "movie",
+      "name": "They Were Just Nice People",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "A married couple are school teachers by day and art thieves by night. Plot TBA.",
+      "releaseInfo": "Unknown"
+    },
+    {
+      "id": "tt41036230",
+      "type": "movie",
+      "name": "Time Out",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "After being fired from his job, Vincent can't bring himself to tell his wife and family. Rather than reveal the truth, he decides to spin a web of lies to conceal his situation.",
+      "releaseInfo": "Unknown"
+    },
+    {
+      "id": "tmdb:1616139",
+      "type": "movie",
+      "name": "Untitled Josh Safdie Project",
+      "poster": "https://image.tmdb.org/t/p/w500/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+      "description": "Set in the world of high-end sports card collecting in the 1990s, a retired Baseball pitcher attempts a comeback as a sports memorabilia agent attempts to capitalize on his success.",
+      "releaseInfo": "Unknown"
     }
   ]
 }
