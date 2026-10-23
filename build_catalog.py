@@ -47,6 +47,26 @@ def validate_mixed_entries(entries):
             raise SystemExit(f"Mixed entry #{index} has invalid type {media_type!r}")
         validate_entries([[title, year]], f"Mixed entry #{index}")
 
+def validate_metas(metas, catalog_label):
+    """Reject broken generated metadata before writing published JSON."""
+    if not metas:
+        raise SystemExit(f"{catalog_label}: no generated catalog entries")
+    seen_ids = set()
+    for index, meta in enumerate(metas, 1):
+        label = f"{catalog_label} entry #{index}"
+        if not isinstance(meta, dict):
+            raise SystemExit(f"{label}: metadata must be an object")
+        for field in ("id", "name", "poster", "type"):
+            if not isinstance(meta.get(field), str) or not meta[field].strip():
+                raise SystemExit(f"{label}: missing or invalid {field}")
+        if meta["type"] not in ("movie", "series"):
+            raise SystemExit(f"{label}: unsupported type {meta['type']!r}")
+        if not meta["poster"].startswith("https://image.tmdb.org/t/p/"):
+            raise SystemExit(f"{label}: invalid TMDB poster URL")
+        if meta["id"] in seen_ids:
+            raise SystemExit(f"{label}: duplicate metadata ID {meta['id']}")
+        seen_ids.add(meta["id"])
+
 def build(config):
     slug = config["catalog_id"]
     if not slug or not all(c.islower() or c.isdigit() or c == "-" for c in slug):
@@ -80,6 +100,7 @@ def build(config):
                     raise SystemExit("Duplicate mixed-row title: " + meta["name"])
                 all_metas[key] = meta
         ordered_metas = [all_metas[(t, title)] for t, title, year in ordered]
+        validate_metas(ordered_metas, slug)
         target = base / "catalog" / "movie" / (slug + ".json")
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(json.dumps({"metas": ordered_metas}, ensure_ascii=False, indent=2) + "\n")
@@ -177,6 +198,7 @@ def build(config):
         metas.append({"id":identifier,"type":kind,"name":title,"poster":"https://image.tmdb.org/t/p/w500"+m["poster_path"],"description":m.get("overview",""),"releaseInfo":str(year)})
     if len({m["id"] for m in metas}) != len(metas):
         raise SystemExit("Duplicate TMDB/IMDb IDs found in catalog")
+    validate_metas(metas, slug + "/" + kind)
     base = root / "published" / slug
     target = base / "catalog" / kind / (slug+".json")
     target.parent.mkdir(parents=True,exist_ok=True)
@@ -206,6 +228,7 @@ if (root / "catalogs" / "alien-vs-predator.json").exists():
     all_metas = {item["name"]: item for item in movies + shows}
     if len(all_metas) != len(names) or set(all_metas) != set(names):
         raise SystemExit("Mixed test catalog titles do not match expected 18 entries")
+    validate_metas([all_metas[name] for name in names], slug)
     mixed_base = root / "published" / slug
     mixed_target = mixed_base / "catalog" / "movie" / (slug + ".json")
     mixed_target.parent.mkdir(parents=True, exist_ok=True)
