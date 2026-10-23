@@ -1,7 +1,7 @@
 {
   "id": "com.kc6442.alien.vs.predator.mixed.test",
   "version": "0.1.1",
-  "name": "Alien vs Predator MIXED TEST",
+  "name": "Alien vs Predator",
   "description": "Experimental single movie catalog row with mixed movie and series items",
   "resources": [
     "catalog"
@@ -13,7 +13,7 @@
     {
       "type": "movie",
       "id": "alien-vs-predator-mixed-test",
-      "name": "Alien vs Predator MIXED TEST"
+      "name": "Alien vs Predator"
     }
   ]
 }
