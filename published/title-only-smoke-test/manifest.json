@@ -1,0 +1,25 @@
+{
+  "id": "com.kc6442.title.only.smoke.test",
+  "version": "0.1.0",
+  "name": "Title Only Smoke Test",
+  "description": "Temporary test of automatic TMDB year, ID and poster resolution for mixed movies and TV",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "title-only-smoke-test",
+      "name": "Title Only Smoke Test"
+    },
+    {
+      "type": "series",
+      "id": "title-only-smoke-test",
+      "name": "Title Only Smoke Test"
+    }
+  ]
+}

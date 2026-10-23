@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "type": "movie",
+      "name": "The Matrix",
+      "year": "1999"
+    },
+    {
+      "type": "series",
+      "name": "Breaking Bad",
+      "year": "2008"
+    }
+  ]
+}
