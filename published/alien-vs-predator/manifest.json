@@ -1,0 +1,25 @@
+{
+  "id": "com.kc6442.alien.vs.predator",
+  "version": "0.1.0",
+  "name": "Alien vs Predator",
+  "description": "Alien and Predator films and television series in release order",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "alien-vs-predator",
+      "name": "Alien vs Predator"
+    },
+    {
+      "type": "series",
+      "id": "alien-vs-predator",
+      "name": "Alien vs Predator"
+    }
+  ]
+}
