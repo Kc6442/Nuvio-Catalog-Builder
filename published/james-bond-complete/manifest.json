@@ -1,0 +1,19 @@
+{
+  "id": "com.kc6442.james.bond.complete",
+  "version": "0.1.0",
+  "name": "James Bond Complete Collection",
+  "description": "All 25 Eon James Bond films plus Casino Royale (1967) and Never Say Never Again (1983), in release order",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "james-bond-complete",
+      "name": "James Bond Complete Collection"
+    }
+  ]
+}
