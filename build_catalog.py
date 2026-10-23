@@ -130,7 +130,7 @@ def build_actor_catalog(config, slug):
     base = root / "published" / slug
     target = base / "catalog" / "movie" / (slug + ".json")
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps({"metas": metas}, ensure_ascii=False, indent=2) + "\\n")
+    target.write_text(json.dumps({"metas": metas}, ensure_ascii=False, indent=2) + "\n")
     manifest = {
         "id": "com.kc6442." + slug.replace("-", "."),
         "version": "0.1.0", "name": config.get("name") or person["name"],
@@ -139,7 +139,7 @@ def build_actor_catalog(config, slug):
         "catalogs": [{"type": "movie", "id": slug,
                       "name": config.get("name") or person["name"]}],
     }
-    (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n")
+    (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     print(f"Built {len(metas)} films for {person['name']}: {target}")
 
 def build(config):
