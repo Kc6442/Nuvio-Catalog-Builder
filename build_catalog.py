@@ -21,7 +21,32 @@ def tmdb(endpoint, params=None):
             if attempt == 3: raise
             time.sleep(2**attempt)
 def norm(s):
-    return "".join(c for c in s.casefold() if c.isalnum())
+    return "".join(c for c in str(s).casefold() if c.isalnum())
+
+def validate_entries(entries, kind):
+    """Give actionable errors instead of unpacking/type errors."""
+    for index, entry in enumerate(entries, 1):
+        if not isinstance(entry, (list, tuple)) or len(entry) != 2:
+            raise SystemExit(
+                f"{kind} entry #{index} must be [title, year]; got {entry!r}"
+            )
+        title, year = entry
+        if not isinstance(title, str) or not title.strip():
+            raise SystemExit(f"{kind} entry #{index} has a missing or invalid title")
+        if not str(year).isdigit() or len(str(year)) != 4:
+            raise SystemExit(f"{kind} entry #{index} ({title!r}) needs a four-digit year")
+
+def validate_mixed_entries(entries):
+    for index, entry in enumerate(entries, 1):
+        if not isinstance(entry, (list, tuple)) or len(entry) != 3:
+            raise SystemExit(
+                f"Mixed entry #{index} must be [movie|series, title, year]; got {entry!r}"
+            )
+        media_type, title, year = entry
+        if media_type not in ("movie", "series"):
+            raise SystemExit(f"Mixed entry #{index} has invalid type {media_type!r}")
+        validate_entries([[title, year]], f"Mixed entry #{index}")
+
 def build(config):
     slug = config["catalog_id"]
     if not slug or not all(c.islower() or c.isdigit() or c == "-" for c in slug):
@@ -33,6 +58,7 @@ def build(config):
         ordered = config.get("entries", [])
         if not ordered:
             raise SystemExit("Mixed-row entries cannot be empty")
+        validate_mixed_entries(ordered)
         grouped = {"movie": [], "series": []}
         for item in ordered:
             if len(item) != 3 or item[0] not in grouped:
@@ -73,6 +99,7 @@ def build(config):
         ordered = config.get("entries", [])
         if not ordered:
             raise SystemExit("Mixed catalog entries cannot be empty")
+        validate_mixed_entries(ordered)
         by_type = {"movie": [], "series": []}
         for item in ordered:
             media_type, title, year = item
@@ -92,6 +119,7 @@ def build(config):
     entries = config.get("shows" if kind == "series" else "movies", [])
     if not entries:
         raise SystemExit("Catalog entries cannot be empty")
+    validate_entries(entries, kind)
     metas = []
     for title,year in entries:
         tmdb_kind = "tv" if kind == "series" else "movie"
@@ -101,6 +129,10 @@ def build(config):
         if not results and kind == "series":
             results = tmdb("search/tv",{"query":title}).get("results",[])
         matches = [m for m in results if norm(m.get(title_key,"")) == norm(title) and (m.get(date_key) or "").startswith(str(year))]
+        # TMDB can store a release under an alternate/original title.
+        if not matches:
+            original_key = "original_name" if kind == "series" else "original_title"
+            matches = [m for m in results if norm(m.get(original_key, "")) == norm(title) and (m.get(date_key) or "").startswith(str(year))]
         if not matches and kind == "series":
             aliases = {"VisionQuest": ["Vision Quest", "Marvel Studios' VisionQuest", "Vision"]}
             for alt in aliases.get(title, []):
@@ -108,7 +140,7 @@ def build(config):
                 matches = [m for m in more if norm(m.get("name","")) == norm(alt) and (m.get("first_air_date") or "").startswith(str(year))]
                 if matches: break
         if not matches:
-            raise SystemExit(f"No exact TMDB match: {title} ({year})")
+            raise SystemExit(f"No TMDB title/year match: {title} ({year}). Check spelling, alternate title, and release year.")
         m = matches[0]
         external = tmdb(f"{tmdb_kind}/{m['id']}/external_ids")
         imdb = external.get("imdb_id")
