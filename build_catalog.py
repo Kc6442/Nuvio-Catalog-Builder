@@ -27,8 +27,48 @@ def build(config):
     if not slug or not all(c.islower() or c.isdigit() or c == "-" for c in slug):
         raise SystemExit("catalog_id must contain only lowercase letters, digits and hyphens")
     kind = config.get("type", "movie")
-    if kind not in ("movie", "series", "mixed"):
-        raise SystemExit("type must be movie, series or mixed")
+    if kind not in ("movie", "series", "mixed", "mixed_row"):
+        raise SystemExit("type must be movie, series, mixed or mixed_row")
+    if kind == "mixed_row":
+        ordered = config.get("entries", [])
+        if not ordered:
+            raise SystemExit("Mixed-row entries cannot be empty")
+        grouped = {"movie": [], "series": []}
+        for item in ordered:
+            if len(item) != 3 or item[0] not in grouped:
+                raise SystemExit("Each mixed-row entry must be [movie|series, title, year]")
+            media_type, title, year = item
+            grouped[media_type].append([title, year])
+        base = root / "published" / slug
+        all_metas = {}
+        for media_type, titles in grouped.items():
+            if not titles:
+                continue
+            child = dict(config, type=media_type)
+            child["movies" if media_type == "movie" else "shows"] = titles
+            build(child)
+            generated = base / "catalog" / media_type / (slug + ".json")
+            for meta in json.loads(generated.read_text())["metas"]:
+                key = (meta["type"], meta["name"])
+                if key in all_metas:
+                    raise SystemExit("Duplicate mixed-row title: " + meta["name"])
+                all_metas[key] = meta
+        ordered_metas = [all_metas[(t, title)] for t, title, year in ordered]
+        target = base / "catalog" / "movie" / (slug + ".json")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(json.dumps({"metas": ordered_metas}, ensure_ascii=False, indent=2) + "\n")
+        # The working Nuvio single-row format declares only the movie catalog.
+        manifest = {"id": "com.kc6442." + slug.replace("-", "."),
+                    "version": "1.0.0", "name": config["name"],
+                    "description": config["description"], "resources": ["catalog"],
+                    "types": ["movie"],
+                    "catalogs": [{"type": "movie", "id": slug, "name": config["name"]}]}
+        (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+        (base / "release_order.json").write_text(json.dumps({"entries": [
+            {"type": t, "name": title, "year": year} for t, title, year in ordered
+        ]}, ensure_ascii=False, indent=2) + "\n")
+        print(f"Built {len(ordered_metas)} mixed-row entries: {target}")
+        return
     if kind == "mixed":
         ordered = config.get("entries", [])
         if not ordered:
