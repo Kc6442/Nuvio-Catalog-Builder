@@ -1,0 +1,15 @@
+{
+  "catalog_id": "zombieland",
+  "name": "Zombieland — Release Order",
+  "description": "Zombieland movies in theatrical release order.",
+  "movies": [
+    [
+      "Zombieland",
+      2009
+    ],
+    [
+      "Zombieland: Double Tap",
+      2019
+    ]
+  ]
+}
