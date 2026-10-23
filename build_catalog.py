@@ -40,14 +40,31 @@ def validate_entries(entries, kind):
 
 def validate_mixed_entries(entries):
     for index, entry in enumerate(entries, 1):
-        if not isinstance(entry, (list, tuple)) or len(entry) != 3:
+        if not isinstance(entry, (list, tuple)) or len(entry) not in (2, 3):
             raise SystemExit(
-                f"Mixed entry #{index} must be [movie|series, title, year]; got {entry!r}"
+                f"Mixed entry #{index} must be [movie|series, title] or [movie|series, title, year]"
             )
-        media_type, title, year = entry
+        media_type, title = entry[:2]
         if media_type not in ("movie", "series"):
             raise SystemExit(f"Mixed entry #{index} has invalid type {media_type!r}")
-        validate_entries([[title, year]], f"Mixed entry #{index}")
+        if len(entry) == 2:
+            validate_entries([title], f"Mixed entry #{index}")
+        else:
+            validate_entries([[title, entry[2]]], f"Mixed entry #{index}")
+
+def mixed_release_order(ordered, base, slug):
+    """Preserve input order and use TMDB-resolved years for title-only entries."""
+    metas = {}
+    for kind in ("movie", "series"):
+        path = base / "catalog" / kind / (slug + ".json")
+        if path.exists():
+            for meta in json.loads(path.read_text())["metas"]:
+                metas[(meta["type"], meta["name"])] = meta
+    return [
+        {"type": entry[0], "name": entry[1],
+         "year": entry[2] if len(entry) == 3 else metas[(entry[0], entry[1])]["releaseInfo"]}
+        for entry in ordered
+    ]
 
 def validate_metas(metas, catalog_label):
     """Reject broken generated metadata before writing published JSON."""
@@ -83,10 +100,8 @@ def build(config):
         validate_mixed_entries(ordered)
         grouped = {"movie": [], "series": []}
         for item in ordered:
-            if len(item) != 3 or item[0] not in grouped:
-                raise SystemExit("Each mixed-row entry must be [movie|series, title, year]")
-            media_type, title, year = item
-            grouped[media_type].append([title, year])
+            media_type, title = item[:2]
+            grouped[media_type].append([title, item[2]] if len(item) == 3 else title)
         base = root / "published" / slug
         all_metas = {}
         for media_type, titles in grouped.items():
@@ -101,7 +116,7 @@ def build(config):
                 if key in all_metas:
                     raise SystemExit("Duplicate mixed-row title: " + meta["name"])
                 all_metas[key] = meta
-        ordered_metas = [all_metas[(t, title)] for t, title, year in ordered]
+        ordered_metas = [all_metas[(entry[0], entry[1])] for entry in ordered]
         validate_metas(ordered_metas, slug)
         target = base / "catalog" / "movie" / (slug + ".json")
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -114,7 +129,7 @@ def build(config):
                     "catalogs": [{"type": "movie", "id": slug, "name": config["name"]}]}
         (base / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
         (base / "release_order.json").write_text(json.dumps({"entries": [
-            {"type": t, "name": title, "year": year} for t, title, year in ordered
+            *mixed_release_order(ordered, base, slug)
         ]}, ensure_ascii=False, indent=2) + "\n")
         print(f"Built {len(ordered_metas)} mixed-row entries: {target}")
         return
@@ -125,10 +140,8 @@ def build(config):
         validate_mixed_entries(ordered)
         by_type = {"movie": [], "series": []}
         for item in ordered:
-            media_type, title, year = item
-            if media_type not in by_type:
-                raise SystemExit("Invalid mixed catalog media type")
-            by_type[media_type].append([title, year])
+            media_type, title = item[:2]
+            by_type[media_type].append([title, item[2]] if len(item) == 3 else title)
         for media_type, entries_for_type in by_type.items():
             if entries_for_type:
                 child = dict(config, type=media_type)
@@ -137,7 +150,7 @@ def build(config):
         base = root / "published" / slug
         manifest = {"id":"com.kc6442."+slug.replace("-","."),"version":"0.1.0","name":config["name"],"description":config["description"],"resources":["catalog"],"types":[t for t in by_type if by_type[t]],"catalogs":[{"type":t,"id":slug,"name":config["name"]} for t in by_type if by_type[t]]}
         (base/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n")
-        (base/"release_order.json").write_text(json.dumps({"entries":[{"type":t,"name":n,"year":y} for t,n,y in ordered]},indent=2)+"\n")
+        (base/"release_order.json").write_text(json.dumps({"entries":mixed_release_order(ordered, base, slug)},indent=2)+"\n")
         return
     entries = config.get("shows" if kind == "series" else "movies", [])
     if not entries:
