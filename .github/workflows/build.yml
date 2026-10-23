@@ -6,6 +6,8 @@ on:
       - 'catalogs/**'
       - 'build_catalog.py'
       - '.github/workflows/build.yml'
+  schedule:
+    - cron: '17 8 * * *'
   workflow_dispatch:
 permissions:
   contents: write
